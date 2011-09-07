@@ -1,0 +1,27 @@
+{'hgw3':
+	{'nodes':
+		[{'nodeid':'0001',
+		'nodedescription':'barionetswitches',
+		'nodetype':'actuator',
+		'dataendpoint':
+				[{'endpointdescription':'relay_1',
+				'endpointid':'0001',
+				'commtechid':'ip2',
+				'commprotocol':'barionet',
+				'position':'bedroom',
+				'coordinates':'1,1,1'
+				}
+                                ]
+		}
+		]
+	},
+'ip0':{'comm_type':'socket_udp','port':'60000','ip':'0.0.0.0'},
+'ip1':{'comm_type':'socket_udp','port':'60001','ip':'0.0.0.0'},
+'ip2':{'comm_type':'barionet','port':'60003','ip':'10.0.0.39'},
+'tty0':{'comm_type':'serial','baudrate':'9600','port':'/dev/ttyUSB0'},
+'zigbee':{'comm_type':'zb','todo':'later'},
+'bluetooth':{'comm_type':'bt','todo':'later'},
+'webcamip':{'comm_type':'http','ip':'10.0.0.6:8080'},
+'znet':{'comm_type':'znetserial','baudrate':'115200','port':'/dev/ttyUSB0'}
+
+}
