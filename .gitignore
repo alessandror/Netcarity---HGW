@@ -1,0 +1,8 @@
+.DS_Store
+
+*~
+*.swp
+
+# También es posible ignorar todos los subdirectorios y archivos en un directorio determinado
+tmp/**/*
+build/**/*
