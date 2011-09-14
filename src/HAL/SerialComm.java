@@ -1,8 +1,9 @@
 package HAL;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
-import javax.comm.*;
+import gnu.io.*;
 import java.io.*;
+
 
 /**
  * init real serial on pc hardware

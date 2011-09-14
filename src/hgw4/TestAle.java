@@ -1,7 +1,3 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
 
 package hgw4;
 
@@ -51,14 +47,13 @@ public final class TestAle implements Observer {
     public EventHandler curEventHandlerTestAle = null;
     
     public TestAle()  {
-        PropertyConfigurator.configure(System.getProperty("user.dir") +
-                                                         System.getProperty("file.separator") +
-                                                         "configs"+ System.getProperty("file.separator") +"log4j.properties");
+        PropertyConfigurator.configure( System.getProperty("user.dir") +
+                                      System.getProperty("file.separator") +
+                                      "configs"+ System.getProperty("file.separator") +"log4j.properties");
         testAleLogger = Logger.getLogger(TestAle.class.getName());
         testAleLogger.info("--> TestAle <--");
         
         curHal = new Hal();
-
         
         //createTempKitchenSensor();
         //createTempBedroomSensor();
@@ -69,8 +64,10 @@ public final class TestAle implements Observer {
         setExternalEventHandler();
         
         //test sensori
-        //curHal.startAllDataCollecting();
-        
+        curHal.startAllDataCollecting();
+        timer0 = new Timer("poll data from temp sensor");
+        task0 = new Timer_getDataFromSerial();
+        timer0.schedule(task0,1000,1000);
         
 //        timer0 = new Timer("poll data from fake sensors");
 //        task0 = new Timer_getDataFromFakeSensors();
@@ -78,12 +75,12 @@ public final class TestAle implements Observer {
         
         
         //test attuatore
-        curHal.startAllDataCommander();
+        //curHal.startAllDataCommander();
 
         //test cicle barionet relay_1
-        timer0 = new Timer("test barionet relay_1");
-        task0 = new Timer_setDataForActuators();
-        timer0.schedule(task0,1000,1000);
+//        timer0 = new Timer("test barionet relay_1");
+//        task0 = new Timer_setDataForActuators();
+//        timer0.schedule(task0,1000,1000);
 
 
         /*
@@ -166,7 +163,7 @@ public final class TestAle implements Observer {
     
     
     public void getDataFromSerial(){
-        testAleLogger.info("------------------Sensor 3------------------------");
+        testAleLogger.info("------------------ Serial Temp Sensor ------------------------");
         curDataTempSerialSens =  curHal.pollSensor("0003", "0001");
         
         try {
