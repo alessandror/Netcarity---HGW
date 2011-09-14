@@ -3,11 +3,8 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>net.hgw4</groupId>
-  <artifactId>hgw4</artifactId>
   <version>0.1</version>
   <packaging>jar</packaging>
-
-  <name>hgw4</name>
   <url>http://maven.apache.org</url>
 
   <properties>
@@ -56,4 +53,6 @@
         <systemPath>${basedir}/libs/xbee-api-0.9.jar</systemPath>
     </dependency>
   </dependencies>
+    <artifactId>Netcarity---HGW</artifactId>
+    <name>Netcarity---HGW</name>
 </project>
