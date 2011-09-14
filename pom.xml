@@ -49,10 +49,11 @@
       <type>jar</type>
     </dependency>
     <dependency>
-      <groupId>com.rapplogic</groupId>
-      <artifactId>xbee-api</artifactId>
-      <version>0.9</version>
-      <type>jar</type>
+        <groupId>com.rapplogic</groupId>
+        <artifactId>xbee-api</artifactId>
+        <version>0.9</version>
+        <scope>system</scope>
+        <systemPath>${basedir}/libs/xbee-api-0.9.jar</systemPath>
     </dependency>
   </dependencies>
 </project>
