@@ -6,7 +6,9 @@
 # También es posible ignorar todos los subdirectorios y archivos en un directorio determinado
 tmp/**/*
 build/**/*
+target/
 nbproject/private/**/*
 /nbproject/private/
 /dist/
 /build/
+/nbproject/
