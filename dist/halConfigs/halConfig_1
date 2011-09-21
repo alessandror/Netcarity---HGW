@@ -1,0 +1,71 @@
+{'hgw3':
+	{'nodes':
+		[{'nodeid':'0001',
+		'nodedescription':'tempsens',
+		'nodetype':'sensor',
+			'dataendpoint':
+				[{'endpointdescription':'tempKitchen',
+				'endpointid':'0001',
+				'commtechid':'ip0',
+				'commprotocol':'serial0',
+				'timing':'1',
+				'data range min':'0',
+				'data range max':'35',
+				'position':'kitchen',
+				'coordinates':'1,1,1',
+				'priority':'10'
+				},
+				{'endpointdescription':'tempBedroom',
+				'endpointid':'0002',
+				'commtechid':'ip1',
+				'commprotocol':'serial0',
+				'timing':'1',
+				'data range min':'0',
+				'data range max':'35',
+				'position':'bedroom',
+				'coordinates':'1,1,1',
+				'priority':'10'
+				}
+				]
+		},
+		{'nodeid':'0002',
+		'nodedescription':'doorswitch',
+		'nodetype':'actuator',
+		'dataendpoint':
+				[{'endpointdescription':'io_1',
+				'endpointid':'0001',
+				'commtechid':'ip2',
+				'commprotocol':'barionet',
+				'position':'bedroom',
+				'coordinates':'1,1,1'
+				}
+				]
+		},
+		{'nodeid':'0003',
+		'nodedescription':'ringbell',
+		'nodetype':'sensor',
+		'dataendpoint':
+				[{'endpointdescription':'frontDoorBell',
+				'endpointid':'0001',
+				'commtechid':'webcamip',
+				'commprotocol':'webcamswitch',
+				'timing':'1',
+				'data range min':'0',
+				'data range max':'1',
+				'position':'AlexOffice',
+				'coordinates':'1,1,1',
+				'priority':'10'
+				}
+				]
+		}
+		]
+	},
+'ip0':{'comm_type':'socket_udp','port':'60000','ip':'0.0.0.0'},
+'ip1':{'comm_type':'socket_udp','port':'60001','ip':'0.0.0.0'},
+'ip2':{'comm_type':'barionet','port':'60002','ip':'10.0.0.39'},
+'tty0':{'comm_type':'serial','baudrate':'9600','port':'/dev/ttyUSB0'},
+'zigbee':{'comm_type':'zb','todo':'later'},
+'bluetooth':{'comm_type':'bt','todo':'later'},
+'webcamip':{'comm_type':'http','ip':'10.0.0.6:8080'}
+
+}
