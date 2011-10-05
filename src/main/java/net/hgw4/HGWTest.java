@@ -1,3 +1,18 @@
+/*
+Copyright 2011 Alex Redaelli
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+*/
 
 package net.hgw4;
 
@@ -13,11 +28,7 @@ import org.json.JSONException;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 
-/**
- *
- * @author AlessandroR
- */
-public final class TestAle implements Observer {
+public final class HGWTest implements Observer {
     private Hal curHal;
     private Logger testAleLogger;
     private TempSens0 tempKitchen;
@@ -47,11 +58,11 @@ public final class TestAle implements Observer {
     public BufferedWriter out=null;
     public EventHandler curEventHandlerTestAle = null;
     
-    public TestAle()  {
+    public HGWTest()  {
         PropertyConfigurator.configure( System.getProperty("user.dir") +
                                       System.getProperty("file.separator") +
                                       "configs"+ System.getProperty("file.separator") +"log4j.properties");
-        testAleLogger = Logger.getLogger(TestAle.class.getName());
+        testAleLogger = Logger.getLogger(HGWTest.class.getName());
         testAleLogger.info("--> TestAle <--");
         
         curHal = new Hal();
@@ -87,8 +98,8 @@ public final class TestAle implements Observer {
         /*
         try {
             //test log zigbee
-            //out = new BufferedWriter(new FileWriter("/home/alessandror/zigbeedata.txt", true))
-            out = new BufferedWriter(new FileWriter(new File("/home/alessandror/zigbeedata.txt")));;
+            //out = new BufferedWriter(new FileWriter("...path.../zigbeedata.txt", true))
+            out = new BufferedWriter(new FileWriter(new File("...path.../zigbeedata.txt")));;
         } catch (IOException ex) {
             java.util.logging.Logger.getLogger(TestAle.class.getName()).log(Level.SEVERE, null, ex);
         }
