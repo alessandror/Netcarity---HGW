@@ -1,5 +1,6 @@
 package net.hgw4;
 
+import net.hgw4.testapp.HGWTest;
 import junit.framework.Test;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;

@@ -678,3 +678,272 @@
 [2011-10-05 15:23:12,414] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> insertData <-- 
 [2011-10-05 15:23:12,415] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> processSensorDataLogic <-- 
 [2011-10-05 15:23:12,415] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> process <-- 
+[2011-11-02 16:43:43,075] [main] [INFO] [net.hgw4.HGWTest] --> TestAle <-- 
+[2011-11-02 16:43:43,078] [main] [INFO] [net.hgw4.hal.Hal] --> Hal <-- 
+[2011-11-02 16:43:43,079] [main] [INFO] [net.hgw4.hal.Hal] cur config file path: /home/ale/mrd_github/Netcarity---HGW/halConfigs/halConfig 
+[2011-11-02 16:43:43,081] [main] [INFO] [net.hgw4.hal.Configurator] --> Configurator <-- 
+[2011-11-02 16:43:43,081] [main] [INFO] [net.hgw4.hal.Configurator] Configurator - createNode 
+[2011-11-02 16:43:43,081] [main] [INFO] [net.hgw4.hal.Configurator] Configurator - read config file 
+[2011-11-02 16:43:43,087] [main] [INFO] [net.hgw4.hal.Configurator] Configurator - create nodes 
+[2011-11-02 16:43:43,093] [main] [INFO] [net.hgw4.hal.CommTech] --> CommTech <-- 
+[2011-11-02 16:43:43,093] [main] [INFO] [net.hgw4.hal.CommTech] CommTech - in createAndConfigCommTech 
+[2011-11-02 16:43:43,095] [main] [INFO] [net.hgw4.hal.SerialComm] --> SerialComm <-- 
+[2011-11-02 16:43:43,406] [main] [INFO] [net.hgw4.hal.CommTech] --> DataQueue <-- 
+[2011-11-02 16:43:43,409] [main] [INFO] [net.hgw4.hal.CommTech] --> SensorDataLogic <-- 
+[2011-11-02 16:43:43,409] [main] [INFO] [net.hgw4.hal.CommTech] --> SensorDataLogic <--checkValue 
+[2011-11-02 16:43:43,411] [main] [INFO] [net.hgw4.hal.CommTech] CommTech - create threads 
+[2011-11-02 16:43:43,415] [main] [INFO] [net.hgw4.hal.DataEndPoint] --> DataEndPoint <-- 
+[2011-11-02 16:43:43,415] [main] [INFO] [net.hgw4.hal.Hal] Hal - startInternalEventHandler  
+[2011-11-02 16:43:43,416] [main] [INFO] [net.hgw4.hal.EventHandler] --> EventHandler <-- 
+[2011-11-02 16:43:43,416] [main] [INFO] [net.hgw4.hal.CommTech] CommTech - in setEventHandler 
+[2011-11-02 16:43:43,416] [main] [INFO] [net.hgw4.hal.Hal] Hal - startExternalEventHandler  
+[2011-11-02 16:43:43,416] [main] [INFO] [net.hgw4.hal.Hal] Hal - startAllDataCollecting  
+[2011-11-02 16:43:43,432] [main] [INFO] [net.hgw4.HGWTest] --> TestAle <-- 
+[2011-11-02 16:43:43,433] [main] [INFO] [net.hgw4.hal.Hal] --> Hal <-- 
+[2011-11-02 16:43:43,433] [main] [INFO] [net.hgw4.hal.Hal] cur config file path: /home/ale/mrd_github/Netcarity---HGW/halConfigs/halConfig 
+[2011-11-02 16:43:43,434] [main] [INFO] [net.hgw4.hal.Configurator] --> Configurator <-- 
+[2011-11-02 16:43:43,434] [main] [INFO] [net.hgw4.hal.Configurator] Configurator - createNode 
+[2011-11-02 16:43:43,434] [main] [INFO] [net.hgw4.hal.Configurator] Configurator - read config file 
+[2011-11-02 16:43:43,435] [main] [INFO] [net.hgw4.hal.Configurator] Configurator - create nodes 
+[2011-11-02 16:43:43,437] [main] [INFO] [net.hgw4.hal.CommTech] --> CommTech <-- 
+[2011-11-02 16:43:43,437] [main] [INFO] [net.hgw4.hal.CommTech] CommTech - in createAndConfigCommTech 
+[2011-11-02 16:43:43,439] [main] [INFO] [net.hgw4.hal.SerialComm] --> SerialComm <-- 
+[2011-11-02 16:43:43,439] [main] [INFO] [net.hgw4.hal.SerialComm] Error: Port is currently in use 
+[2011-11-02 16:43:43,441] [main] [INFO] [net.hgw4.hal.CommTech] --> DataQueue <-- 
+[2011-11-02 16:43:43,442] [main] [INFO] [net.hgw4.hal.CommTech] --> SensorDataLogic <-- 
+[2011-11-02 16:43:43,442] [main] [INFO] [net.hgw4.hal.CommTech] --> SensorDataLogic <--checkValue 
+[2011-11-02 16:43:43,442] [main] [INFO] [net.hgw4.hal.CommTech] CommTech - create threads 
+[2011-11-02 16:43:43,449] [main] [INFO] [net.hgw4.hal.DataEndPoint] --> DataEndPoint <-- 
+[2011-11-02 16:43:43,449] [main] [INFO] [net.hgw4.hal.Hal] Hal - startInternalEventHandler  
+[2011-11-02 16:43:43,449] [main] [INFO] [net.hgw4.hal.EventHandler] --> EventHandler <-- 
+[2011-11-02 16:43:43,449] [main] [INFO] [net.hgw4.hal.CommTech] CommTech - in setEventHandler 
+[2011-11-02 16:43:43,449] [main] [INFO] [net.hgw4.hal.Hal] Hal - startExternalEventHandler  
+[2011-11-02 16:43:43,449] [main] [INFO] [net.hgw4.hal.Hal] Hal - startAllDataCollecting  
+[2011-11-02 16:43:43,450] [main] [INFO] [net.hgw4.HGWTest] ---> start test ipcam  
+[2011-11-02 16:43:43,450] [main] [INFO] [net.hgw4.hal.Hal] Hal - pollSensors  
+[2011-11-02 16:48:38,907] [main] [INFO] [net.hgw4.HGWTest] --> TestAle <-- 
+[2011-11-02 16:48:38,911] [main] [INFO] [net.hgw4.hal.Hal] --> Hal <-- 
+[2011-11-02 16:48:38,911] [main] [INFO] [net.hgw4.hal.Hal] cur config file path: /home/ale/mrd_github/Netcarity---HGW/halConfigs/halConfig 
+[2011-11-02 16:48:38,914] [main] [INFO] [net.hgw4.hal.Configurator] --> Configurator <-- 
+[2011-11-02 16:48:38,914] [main] [INFO] [net.hgw4.hal.Configurator] Configurator - createNode 
+[2011-11-02 16:48:38,914] [main] [INFO] [net.hgw4.hal.Configurator] Configurator - read config file 
+[2011-11-02 16:48:38,922] [main] [INFO] [net.hgw4.hal.Configurator] Configurator - create nodes 
+[2011-11-02 16:48:38,929] [main] [INFO] [net.hgw4.hal.CommTech] --> CommTech <-- 
+[2011-11-02 16:48:38,929] [main] [INFO] [net.hgw4.hal.CommTech] CommTech - in createAndConfigCommTech 
+[2011-11-02 16:48:38,932] [main] [INFO] [net.hgw4.hal.SerialComm] --> SerialComm <-- 
+[2011-11-02 16:48:39,242] [main] [INFO] [net.hgw4.hal.CommTech] --> DataQueue <-- 
+[2011-11-02 16:48:39,245] [main] [INFO] [net.hgw4.hal.CommTech] --> SensorDataLogic <-- 
+[2011-11-02 16:48:39,245] [main] [INFO] [net.hgw4.hal.CommTech] --> SensorDataLogic <--checkValue 
+[2011-11-02 16:48:39,247] [main] [INFO] [net.hgw4.hal.CommTech] CommTech - create threads 
+[2011-11-02 16:48:39,251] [main] [INFO] [net.hgw4.hal.DataEndPoint] --> DataEndPoint <-- 
+[2011-11-02 16:48:39,251] [main] [INFO] [net.hgw4.hal.Hal] Hal - startInternalEventHandler  
+[2011-11-02 16:48:39,252] [main] [INFO] [net.hgw4.hal.EventHandler] --> EventHandler <-- 
+[2011-11-02 16:48:39,252] [main] [INFO] [net.hgw4.hal.CommTech] CommTech - in setEventHandler 
+[2011-11-02 16:48:39,252] [main] [INFO] [net.hgw4.hal.Hal] Hal - startExternalEventHandler  
+[2011-11-02 16:48:39,252] [main] [INFO] [net.hgw4.hal.Hal] Hal - startAllDataCollecting  
+[2011-11-02 16:48:39,268] [main] [INFO] [net.hgw4.HGWTest] --> TestAle <-- 
+[2011-11-02 16:48:39,270] [main] [INFO] [net.hgw4.hal.Hal] --> Hal <-- 
+[2011-11-02 16:48:39,270] [main] [INFO] [net.hgw4.hal.Hal] cur config file path: /home/ale/mrd_github/Netcarity---HGW/halConfigs/halConfig 
+[2011-11-02 16:48:39,272] [main] [INFO] [net.hgw4.hal.Configurator] --> Configurator <-- 
+[2011-11-02 16:48:39,272] [main] [INFO] [net.hgw4.hal.Configurator] Configurator - createNode 
+[2011-11-02 16:48:39,272] [main] [INFO] [net.hgw4.hal.Configurator] Configurator - read config file 
+[2011-11-02 16:48:39,274] [main] [INFO] [net.hgw4.hal.Configurator] Configurator - create nodes 
+[2011-11-02 16:48:39,277] [main] [INFO] [net.hgw4.hal.CommTech] --> CommTech <-- 
+[2011-11-02 16:48:39,277] [main] [INFO] [net.hgw4.hal.CommTech] CommTech - in createAndConfigCommTech 
+[2011-11-02 16:48:39,278] [main] [INFO] [net.hgw4.hal.SerialComm] --> SerialComm <-- 
+[2011-11-02 16:48:39,278] [main] [INFO] [net.hgw4.hal.SerialComm] Error: Port is currently in use 
+[2011-11-02 16:48:39,280] [main] [INFO] [net.hgw4.hal.CommTech] --> DataQueue <-- 
+[2011-11-02 16:48:39,282] [main] [INFO] [net.hgw4.hal.CommTech] --> SensorDataLogic <-- 
+[2011-11-02 16:48:39,282] [main] [INFO] [net.hgw4.hal.CommTech] --> SensorDataLogic <--checkValue 
+[2011-11-02 16:48:39,282] [main] [INFO] [net.hgw4.hal.CommTech] CommTech - create threads 
+[2011-11-02 16:48:39,288] [main] [INFO] [net.hgw4.hal.DataEndPoint] --> DataEndPoint <-- 
+[2011-11-02 16:48:39,288] [main] [INFO] [net.hgw4.hal.Hal] Hal - startInternalEventHandler  
+[2011-11-02 16:48:39,289] [main] [INFO] [net.hgw4.hal.EventHandler] --> EventHandler <-- 
+[2011-11-02 16:48:39,289] [main] [INFO] [net.hgw4.hal.CommTech] CommTech - in setEventHandler 
+[2011-11-02 16:48:39,289] [main] [INFO] [net.hgw4.hal.Hal] Hal - startExternalEventHandler  
+[2011-11-02 16:48:39,289] [main] [INFO] [net.hgw4.hal.Hal] Hal - startAllDataCollecting  
+[2011-11-02 16:50:35,412] [main] [INFO] [net.hgw4.HGWTest] --> TestAle <-- 
+[2011-11-02 16:50:35,415] [main] [INFO] [net.hgw4.hal.Hal] --> Hal <-- 
+[2011-11-02 16:50:35,416] [main] [INFO] [net.hgw4.hal.Hal] cur config file path: /home/ale/mrd_github/Netcarity---HGW/halConfigs/halConfig 
+[2011-11-02 16:50:35,417] [main] [INFO] [net.hgw4.hal.Configurator] --> Configurator <-- 
+[2011-11-02 16:50:35,417] [main] [INFO] [net.hgw4.hal.Configurator] Configurator - createNode 
+[2011-11-02 16:50:35,418] [main] [INFO] [net.hgw4.hal.Configurator] Configurator - read config file 
+[2011-11-02 16:50:35,423] [main] [INFO] [net.hgw4.hal.Configurator] Configurator - create nodes 
+[2011-11-02 16:50:35,429] [main] [INFO] [net.hgw4.hal.CommTech] --> CommTech <-- 
+[2011-11-02 16:50:35,429] [main] [INFO] [net.hgw4.hal.CommTech] CommTech - in createAndConfigCommTech 
+[2011-11-02 16:50:35,431] [main] [INFO] [net.hgw4.hal.SerialComm] --> SerialComm <-- 
+[2011-11-02 16:50:35,742] [main] [INFO] [net.hgw4.hal.CommTech] --> DataQueue <-- 
+[2011-11-02 16:50:35,746] [main] [INFO] [net.hgw4.hal.CommTech] --> SensorDataLogic <-- 
+[2011-11-02 16:50:35,746] [main] [INFO] [net.hgw4.hal.CommTech] --> SensorDataLogic <--checkValue 
+[2011-11-02 16:50:35,748] [main] [INFO] [net.hgw4.hal.CommTech] CommTech - create threads 
+[2011-11-02 16:50:35,752] [main] [INFO] [net.hgw4.hal.DataEndPoint] --> DataEndPoint <-- 
+[2011-11-02 16:50:35,752] [main] [INFO] [net.hgw4.hal.Hal] Hal - startInternalEventHandler  
+[2011-11-02 16:50:35,752] [main] [INFO] [net.hgw4.hal.EventHandler] --> EventHandler <-- 
+[2011-11-02 16:50:35,752] [main] [INFO] [net.hgw4.hal.CommTech] CommTech - in setEventHandler 
+[2011-11-02 16:50:35,752] [main] [INFO] [net.hgw4.hal.Hal] Hal - startExternalEventHandler  
+[2011-11-02 16:50:35,752] [main] [INFO] [net.hgw4.hal.Hal] Hal - startAllDataCollecting  
+[2011-11-02 16:50:35,763] [main] [INFO] [net.hgw4.HGWTest] --> TestAle <-- 
+[2011-11-02 16:50:35,764] [main] [INFO] [net.hgw4.hal.Hal] --> Hal <-- 
+[2011-11-02 16:50:35,765] [main] [INFO] [net.hgw4.hal.Hal] cur config file path: /home/ale/mrd_github/Netcarity---HGW/halConfigs/halConfig 
+[2011-11-02 16:50:35,766] [main] [INFO] [net.hgw4.hal.Configurator] --> Configurator <-- 
+[2011-11-02 16:50:35,766] [main] [INFO] [net.hgw4.hal.Configurator] Configurator - createNode 
+[2011-11-02 16:50:35,766] [main] [INFO] [net.hgw4.hal.Configurator] Configurator - read config file 
+[2011-11-02 16:50:35,767] [main] [INFO] [net.hgw4.hal.Configurator] Configurator - create nodes 
+[2011-11-02 16:50:35,769] [main] [INFO] [net.hgw4.hal.CommTech] --> CommTech <-- 
+[2011-11-02 16:50:35,769] [main] [INFO] [net.hgw4.hal.CommTech] CommTech - in createAndConfigCommTech 
+[2011-11-02 16:50:35,770] [main] [INFO] [net.hgw4.hal.SerialComm] --> SerialComm <-- 
+[2011-11-02 16:50:35,770] [main] [INFO] [net.hgw4.hal.SerialComm] Error: Port is currently in use 
+[2011-11-02 16:50:35,771] [main] [INFO] [net.hgw4.hal.CommTech] --> DataQueue <-- 
+[2011-11-02 16:50:35,773] [main] [INFO] [net.hgw4.hal.CommTech] --> SensorDataLogic <-- 
+[2011-11-02 16:50:35,773] [main] [INFO] [net.hgw4.hal.CommTech] --> SensorDataLogic <--checkValue 
+[2011-11-02 16:50:35,773] [main] [INFO] [net.hgw4.hal.CommTech] CommTech - create threads 
+[2011-11-02 16:50:35,777] [main] [INFO] [net.hgw4.hal.DataEndPoint] --> DataEndPoint <-- 
+[2011-11-02 16:50:35,777] [main] [INFO] [net.hgw4.hal.Hal] Hal - startInternalEventHandler  
+[2011-11-02 16:50:35,777] [main] [INFO] [net.hgw4.hal.EventHandler] --> EventHandler <-- 
+[2011-11-02 16:50:35,777] [main] [INFO] [net.hgw4.hal.CommTech] CommTech - in setEventHandler 
+[2011-11-02 16:50:35,777] [main] [INFO] [net.hgw4.hal.Hal] Hal - startExternalEventHandler  
+[2011-11-02 16:50:35,777] [main] [INFO] [net.hgw4.hal.Hal] Hal - startAllDataCollecting  
+[2011-11-02 16:53:57,765] [main] [INFO] [net.hgw4.testapp.HGWTest] --> TestAle <-- 
+[2011-11-02 16:53:57,767] [main] [INFO] [net.hgw4.hal.Hal] --> Hal <-- 
+[2011-11-02 16:53:57,768] [main] [INFO] [net.hgw4.hal.Hal] cur config file path: /home/ale/mrd_github/Netcarity---HGW/halConfigs/halConfig 
+[2011-11-02 16:53:57,770] [main] [INFO] [net.hgw4.hal.Configurator] --> Configurator <-- 
+[2011-11-02 16:53:57,770] [main] [INFO] [net.hgw4.hal.Configurator] Configurator - createNode 
+[2011-11-02 16:53:57,770] [main] [INFO] [net.hgw4.hal.Configurator] Configurator - read config file 
+[2011-11-02 16:53:57,775] [main] [INFO] [net.hgw4.hal.Configurator] Configurator - create nodes 
+[2011-11-02 16:53:57,780] [main] [INFO] [net.hgw4.hal.CommTech] --> CommTech <-- 
+[2011-11-02 16:53:57,780] [main] [INFO] [net.hgw4.hal.CommTech] CommTech - in createAndConfigCommTech 
+[2011-11-02 16:53:57,782] [main] [INFO] [net.hgw4.hal.SerialComm] --> SerialComm <-- 
+[2011-11-02 16:53:58,091] [main] [INFO] [net.hgw4.hal.CommTech] --> DataQueue <-- 
+[2011-11-02 16:53:58,093] [main] [INFO] [net.hgw4.hal.CommTech] --> SensorDataLogic <-- 
+[2011-11-02 16:53:58,093] [main] [INFO] [net.hgw4.hal.CommTech] --> SensorDataLogic <--checkValue 
+[2011-11-02 16:53:58,094] [main] [INFO] [net.hgw4.hal.CommTech] CommTech - create threads 
+[2011-11-02 16:53:58,099] [main] [INFO] [net.hgw4.hal.DataEndPoint] --> DataEndPoint <-- 
+[2011-11-02 16:53:58,099] [main] [INFO] [net.hgw4.hal.Hal] Hal - startInternalEventHandler  
+[2011-11-02 16:53:58,099] [main] [INFO] [net.hgw4.hal.EventHandler] --> EventHandler <-- 
+[2011-11-02 16:53:58,099] [main] [INFO] [net.hgw4.hal.CommTech] CommTech - in setEventHandler 
+[2011-11-02 16:53:58,099] [main] [INFO] [net.hgw4.hal.Hal] Hal - startExternalEventHandler  
+[2011-11-02 16:53:58,099] [main] [INFO] [net.hgw4.hal.Hal] Hal - startAllDataCollecting  
+[2011-11-02 16:53:58,600] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] CommTech - in DataCollectorThreadRun 
+[2011-11-02 16:53:58,600] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> insertData <-- 
+[2011-11-02 16:53:58,600] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> processSensorDataLogic <-- 
+[2011-11-02 16:53:58,600] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> process <-- 
+[2011-11-02 16:53:59,100] [poll data from temp sensor] [INFO] [net.hgw4.testapp.HGWTest] TestAle TimerTask getDataFromSerial()  
+[2011-11-02 16:53:59,101] [poll data from temp sensor] [INFO] [net.hgw4.testapp.HGWTest] ------------------ Serial Temp Sensor ------------------------ 
+[2011-11-02 16:53:59,101] [poll data from temp sensor] [INFO] [net.hgw4.hal.Hal] Hal - pollSensors  
+[2011-11-02 16:53:59,101] [poll data from temp sensor] [INFO] [net.hgw4.hal.CommTech] CommTech - in getCurSensData 
+[2011-11-02 16:53:59,101] [poll data from temp sensor] [INFO] [net.hgw4.hal.CommTech] --> getData <-- 
+[2011-11-02 16:53:59,101] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] CommTech - in DataCollectorThreadRun 
+[2011-11-02 16:53:59,101] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> insertData <-- 
+[2011-11-02 16:53:59,101] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> processSensorDataLogic <-- 
+[2011-11-02 16:53:59,101] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> process <-- 
+[2011-11-02 16:53:59,113] [poll data from temp sensor] [INFO] [net.hgw4.hal.CommTech] serial1 curMsg: {"value":"noData"} 
+[2011-11-02 16:53:59,115] [poll data from temp sensor] [INFO] [net.hgw4.hal.DataMsgBuilder] --> DataMsgBuilderLogger <-- 
+[2011-11-02 16:53:59,119] [poll data from temp sensor] [INFO] [net.hgw4.testapp.HGWTest] sensor:0003 
+[2011-11-02 16:53:59,119] [poll data from temp sensor] [INFO] [net.hgw4.testapp.HGWTest] endpoint:0001 
+[2011-11-02 16:53:59,119] [poll data from temp sensor] [INFO] [net.hgw4.testapp.HGWTest] msgid:2 
+[2011-11-02 16:53:59,119] [poll data from temp sensor] [INFO] [net.hgw4.testapp.HGWTest] timestamp:Wed Nov 02 16:53:59 CET 2011 
+[2011-11-02 16:53:59,119] [poll data from temp sensor] [INFO] [net.hgw4.testapp.HGWTest] data:noData 
+[2011-11-02 16:53:59,602] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] CommTech - in DataCollectorThreadRun 
+[2011-11-02 16:53:59,602] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> insertData <-- 
+[2011-11-02 16:53:59,602] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> processSensorDataLogic <-- 
+[2011-11-02 16:53:59,602] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> process <-- 
+[2011-11-02 16:54:00,100] [poll data from temp sensor] [INFO] [net.hgw4.testapp.HGWTest] TestAle TimerTask getDataFromSerial()  
+[2011-11-02 16:54:00,100] [poll data from temp sensor] [INFO] [net.hgw4.testapp.HGWTest] ------------------ Serial Temp Sensor ------------------------ 
+[2011-11-02 16:54:00,100] [poll data from temp sensor] [INFO] [net.hgw4.hal.Hal] Hal - pollSensors  
+[2011-11-02 16:54:00,100] [poll data from temp sensor] [INFO] [net.hgw4.hal.CommTech] CommTech - in getCurSensData 
+[2011-11-02 16:54:00,100] [poll data from temp sensor] [INFO] [net.hgw4.hal.CommTech] --> getData <-- 
+[2011-11-02 16:54:00,101] [poll data from temp sensor] [INFO] [net.hgw4.hal.CommTech] serial1 curMsg: {"value":"noData"} 
+[2011-11-02 16:54:00,102] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] CommTech - in DataCollectorThreadRun 
+[2011-11-02 16:54:00,102] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> insertData <-- 
+[2011-11-02 16:54:00,102] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> processSensorDataLogic <-- 
+[2011-11-02 16:54:00,102] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> process <-- 
+[2011-11-02 16:54:00,103] [poll data from temp sensor] [INFO] [net.hgw4.hal.DataMsgBuilder] --> DataMsgBuilderLogger <-- 
+[2011-11-02 16:54:00,103] [poll data from temp sensor] [INFO] [net.hgw4.testapp.HGWTest] sensor:0003 
+[2011-11-02 16:54:00,103] [poll data from temp sensor] [INFO] [net.hgw4.testapp.HGWTest] endpoint:0001 
+[2011-11-02 16:54:00,103] [poll data from temp sensor] [INFO] [net.hgw4.testapp.HGWTest] msgid:4 
+[2011-11-02 16:54:00,103] [poll data from temp sensor] [INFO] [net.hgw4.testapp.HGWTest] timestamp:Wed Nov 02 16:54:00 CET 2011 
+[2011-11-02 16:54:00,104] [poll data from temp sensor] [INFO] [net.hgw4.testapp.HGWTest] data:noData 
+[2011-11-02 16:54:00,602] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] CommTech - in DataCollectorThreadRun 
+[2011-11-02 16:54:00,602] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> insertData <-- 
+[2011-11-02 16:54:00,602] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> processSensorDataLogic <-- 
+[2011-11-02 16:54:00,602] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> process <-- 
+[2011-11-02 16:54:01,100] [poll data from temp sensor] [INFO] [net.hgw4.testapp.HGWTest] TestAle TimerTask getDataFromSerial()  
+[2011-11-02 16:54:01,100] [poll data from temp sensor] [INFO] [net.hgw4.testapp.HGWTest] ------------------ Serial Temp Sensor ------------------------ 
+[2011-11-02 16:54:01,100] [poll data from temp sensor] [INFO] [net.hgw4.hal.Hal] Hal - pollSensors  
+[2011-11-02 16:54:01,100] [poll data from temp sensor] [INFO] [net.hgw4.hal.CommTech] CommTech - in getCurSensData 
+[2011-11-02 16:54:01,100] [poll data from temp sensor] [INFO] [net.hgw4.hal.CommTech] --> getData <-- 
+[2011-11-02 16:54:01,101] [poll data from temp sensor] [INFO] [net.hgw4.hal.CommTech] serial1 curMsg: {"value":"414"} 
+[2011-11-02 16:54:01,102] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] CommTech - in DataCollectorThreadRun 
+[2011-11-02 16:54:01,103] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> insertData <-- 
+[2011-11-02 16:54:01,103] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> processSensorDataLogic <-- 
+[2011-11-02 16:54:01,103] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> process <-- 
+[2011-11-02 16:54:01,103] [poll data from temp sensor] [INFO] [net.hgw4.hal.DataMsgBuilder] --> DataMsgBuilderLogger <-- 
+[2011-11-02 16:54:01,104] [poll data from temp sensor] [INFO] [net.hgw4.testapp.HGWTest] sensor:0003 
+[2011-11-02 16:54:01,104] [poll data from temp sensor] [INFO] [net.hgw4.testapp.HGWTest] endpoint:0001 
+[2011-11-02 16:54:01,104] [poll data from temp sensor] [INFO] [net.hgw4.testapp.HGWTest] msgid:6 
+[2011-11-02 16:54:01,104] [poll data from temp sensor] [INFO] [net.hgw4.testapp.HGWTest] timestamp:Wed Nov 02 16:54:01 CET 2011 
+[2011-11-02 16:54:01,106] [poll data from temp sensor] [INFO] [net.hgw4.testapp.HGWTest] data:16.819996 
+[2011-11-02 16:54:01,603] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] CommTech - in DataCollectorThreadRun 
+[2011-11-02 16:54:01,603] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> insertData <-- 
+[2011-11-02 16:54:01,603] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> processSensorDataLogic <-- 
+[2011-11-02 16:54:01,603] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> process <-- 
+[2011-11-02 16:54:02,100] [poll data from temp sensor] [INFO] [net.hgw4.testapp.HGWTest] TestAle TimerTask getDataFromSerial()  
+[2011-11-02 16:54:02,100] [poll data from temp sensor] [INFO] [net.hgw4.testapp.HGWTest] ------------------ Serial Temp Sensor ------------------------ 
+[2011-11-02 16:54:02,100] [poll data from temp sensor] [INFO] [net.hgw4.hal.Hal] Hal - pollSensors  
+[2011-11-02 16:54:02,100] [poll data from temp sensor] [INFO] [net.hgw4.hal.CommTech] CommTech - in getCurSensData 
+[2011-11-02 16:54:02,100] [poll data from temp sensor] [INFO] [net.hgw4.hal.CommTech] --> getData <-- 
+[2011-11-02 16:54:02,101] [poll data from temp sensor] [INFO] [net.hgw4.hal.CommTech] serial1 curMsg: {"value":"414"} 
+[2011-11-02 16:54:02,103] [poll data from temp sensor] [INFO] [net.hgw4.hal.DataMsgBuilder] --> DataMsgBuilderLogger <-- 
+[2011-11-02 16:54:02,103] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] CommTech - in DataCollectorThreadRun 
+[2011-11-02 16:54:02,103] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> insertData <-- 
+[2011-11-02 16:54:02,103] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> processSensorDataLogic <-- 
+[2011-11-02 16:54:02,103] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> process <-- 
+[2011-11-02 16:54:02,104] [poll data from temp sensor] [INFO] [net.hgw4.testapp.HGWTest] sensor:0003 
+[2011-11-02 16:54:02,104] [poll data from temp sensor] [INFO] [net.hgw4.testapp.HGWTest] endpoint:0001 
+[2011-11-02 16:54:02,104] [poll data from temp sensor] [INFO] [net.hgw4.testapp.HGWTest] msgid:8 
+[2011-11-02 16:54:02,104] [poll data from temp sensor] [INFO] [net.hgw4.testapp.HGWTest] timestamp:Wed Nov 02 16:54:02 CET 2011 
+[2011-11-02 16:54:02,104] [poll data from temp sensor] [INFO] [net.hgw4.testapp.HGWTest] data:16.819996 
+[2011-11-02 16:54:02,604] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] CommTech - in DataCollectorThreadRun 
+[2011-11-02 16:54:02,604] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> insertData <-- 
+[2011-11-02 16:54:02,604] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> processSensorDataLogic <-- 
+[2011-11-02 16:54:02,604] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> process <-- 
+[2011-11-02 16:54:03,100] [poll data from temp sensor] [INFO] [net.hgw4.testapp.HGWTest] TestAle TimerTask getDataFromSerial()  
+[2011-11-02 16:54:03,101] [poll data from temp sensor] [INFO] [net.hgw4.testapp.HGWTest] ------------------ Serial Temp Sensor ------------------------ 
+[2011-11-02 16:54:03,101] [poll data from temp sensor] [INFO] [net.hgw4.hal.Hal] Hal - pollSensors  
+[2011-11-02 16:54:03,101] [poll data from temp sensor] [INFO] [net.hgw4.hal.CommTech] CommTech - in getCurSensData 
+[2011-11-02 16:54:03,101] [poll data from temp sensor] [INFO] [net.hgw4.hal.CommTech] --> getData <-- 
+[2011-11-02 16:54:03,101] [poll data from temp sensor] [INFO] [net.hgw4.hal.CommTech] serial1 curMsg: {"value":"414"} 
+[2011-11-02 16:54:03,103] [poll data from temp sensor] [INFO] [net.hgw4.hal.DataMsgBuilder] --> DataMsgBuilderLogger <-- 
+[2011-11-02 16:54:03,104] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] CommTech - in DataCollectorThreadRun 
+[2011-11-02 16:54:03,104] [poll data from temp sensor] [INFO] [net.hgw4.testapp.HGWTest] sensor:0003 
+[2011-11-02 16:54:03,104] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> insertData <-- 
+[2011-11-02 16:54:03,105] [poll data from temp sensor] [INFO] [net.hgw4.testapp.HGWTest] endpoint:0001 
+[2011-11-02 16:54:03,105] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> processSensorDataLogic <-- 
+[2011-11-02 16:54:03,105] [poll data from temp sensor] [INFO] [net.hgw4.testapp.HGWTest] msgid:10 
+[2011-11-02 16:54:03,105] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> process <-- 
+[2011-11-02 16:54:03,105] [poll data from temp sensor] [INFO] [net.hgw4.testapp.HGWTest] timestamp:Wed Nov 02 16:54:03 CET 2011 
+[2011-11-02 16:54:03,105] [poll data from temp sensor] [INFO] [net.hgw4.testapp.HGWTest] data:16.819996 
+[2011-11-02 16:54:03,605] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] CommTech - in DataCollectorThreadRun 
+[2011-11-02 16:54:03,605] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> insertData <-- 
+[2011-11-02 16:54:03,605] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> processSensorDataLogic <-- 
+[2011-11-02 16:54:03,605] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> process <-- 
+[2011-11-02 16:54:04,100] [poll data from temp sensor] [INFO] [net.hgw4.testapp.HGWTest] TestAle TimerTask getDataFromSerial()  
+[2011-11-02 16:54:04,100] [poll data from temp sensor] [INFO] [net.hgw4.testapp.HGWTest] ------------------ Serial Temp Sensor ------------------------ 
+[2011-11-02 16:54:04,101] [poll data from temp sensor] [INFO] [net.hgw4.hal.Hal] Hal - pollSensors  
+[2011-11-02 16:54:04,101] [poll data from temp sensor] [INFO] [net.hgw4.hal.CommTech] CommTech - in getCurSensData 
+[2011-11-02 16:54:04,101] [poll data from temp sensor] [INFO] [net.hgw4.hal.CommTech] --> getData <-- 
+[2011-11-02 16:54:04,101] [poll data from temp sensor] [INFO] [net.hgw4.hal.CommTech] serial1 curMsg: {"value":"414"} 
+[2011-11-02 16:54:04,103] [poll data from temp sensor] [INFO] [net.hgw4.hal.DataMsgBuilder] --> DataMsgBuilderLogger <-- 
+[2011-11-02 16:54:04,104] [poll data from temp sensor] [INFO] [net.hgw4.testapp.HGWTest] sensor:0003 
+[2011-11-02 16:54:04,104] [poll data from temp sensor] [INFO] [net.hgw4.testapp.HGWTest] endpoint:0001 
+[2011-11-02 16:54:04,104] [poll data from temp sensor] [INFO] [net.hgw4.testapp.HGWTest] msgid:12 
+[2011-11-02 16:54:04,104] [poll data from temp sensor] [INFO] [net.hgw4.testapp.HGWTest] timestamp:Wed Nov 02 16:54:04 CET 2011 
+[2011-11-02 16:54:04,104] [poll data from temp sensor] [INFO] [net.hgw4.testapp.HGWTest] data:16.819996 
+[2011-11-02 16:54:04,105] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] CommTech - in DataCollectorThreadRun 
+[2011-11-02 16:54:04,106] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> insertData <-- 
+[2011-11-02 16:54:04,106] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> processSensorDataLogic <-- 
+[2011-11-02 16:54:04,106] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> process <-- 
+[2011-11-02 16:54:04,606] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] CommTech - in DataCollectorThreadRun 
+[2011-11-02 16:54:04,606] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> insertData <-- 
+[2011-11-02 16:54:04,606] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> processSensorDataLogic <-- 
+[2011-11-02 16:54:04,606] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> process <-- 

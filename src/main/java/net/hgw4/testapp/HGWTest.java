@@ -14,7 +14,7 @@ Copyright 2011 Alex Redaelli
    limitations under the License.
 */
 
-package net.hgw4;
+package net.hgw4.testapp;
 
 import java.io.*;
 import java.util.Observer;
@@ -52,7 +52,7 @@ public final class HGWTest implements Observer {
     private int timerSleep = 100; //default timer sleep
     private Timer timer3;
     private Timer timer4;
-    private Timer_testIpCamButton task3;
+//    private Timer_testIpCamButton task3;
     //private final Timer_getDataFromZigbee task4;
     private String data;
     public BufferedWriter out=null;
@@ -118,12 +118,12 @@ public final class HGWTest implements Observer {
     }
 
 
-    public class Timer_testIpCamButton extends TimerTask {
-            public void run() {
-            testAleLogger.info("TestAle TimerTask Timer_testIpCamButton() ");
-            testIpCamButton();
-            }
-    }
+//    public class Timer_testIpCamButton extends TimerTask {
+//            public void run() {
+//            testAleLogger.info("TestAle TimerTask Timer_testIpCamButton() ");
+//            testIpCamButton();
+//            }
+//    }
 
     public class Timer_getDataFromFakeSensors extends TimerTask {
             public void run() {
@@ -286,7 +286,7 @@ public final class HGWTest implements Observer {
       testAleLogger.info("--> end test barionet ");
     }
     
-    public void testIpCamButton(){
+   /* public void testIpCamButton(){
 
         testAleLogger.info("---> start test ipcam ");
 
@@ -309,6 +309,7 @@ public final class HGWTest implements Observer {
        testAleLogger.info("<--- end test ipcam");
         
     }
+    */
     
     /**
      * crea il fake sensor
@@ -323,5 +324,10 @@ public final class HGWTest implements Observer {
         tempBedroom = new TempSens0(60001,"0002");
     
     }
-
+    
+ public static void main(String [ ] args)
+ {
+     HGWTest testapp = new HGWTest();
+ }
+ 
 }

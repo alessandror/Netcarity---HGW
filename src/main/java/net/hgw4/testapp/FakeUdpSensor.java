@@ -13,7 +13,7 @@ Copyright 2011 Alex Redaelli
    See the License for the specific language governing permissions and
    limitations under the License.
 */
-package net.hgw4;
+package net.hgw4.testapp;
 
 import java.io.IOException;
 import java.net.*;
