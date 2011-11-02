@@ -32,7 +32,6 @@ import java.util.TimerTask;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-//10.0.0.6:8080
 
 public class WebCamClientComm implements PossibleMsgCmds {
 
@@ -120,12 +119,12 @@ public class WebCamClientComm implements PossibleMsgCmds {
  */
     public int checkPortStatus(int port) {
         
-        //http://test:test@10.0.0.6:8080/axis-cgi/io/input.cgi?check=1
+   
 
         try {
             String curport = Integer.toString(port);
             URL url = new URL("http://" + ip + "/axis-cgi/io/input.cgi?check=" + curport.toString()); //reply with input1=1 o 0
-            String userPassword = "root" + ":" + "netcarity.7x1";
+            String userPassword = "<user>" + ":" + "<passwd>";
             String encoding = new sun.misc.BASE64Encoder().encode (userPassword.getBytes());
             URLConnection uc = url.openConnection();
             uc.setRequestProperty ("Authorization", "Basic " + encoding);
@@ -140,20 +139,7 @@ public class WebCamClientComm implements PossibleMsgCmds {
 
                         return 0; //low
                 }
-            /*
-            while ((str = in.readLine()) != null) { // str is one line of text; readLine() strips the newline character(s)
-                WebCamClientCommLogger.info("while checkPortStatus  "   );
-                         
-                if (str.contentEquals("input1=1")){
-                        return 1; //high
-                }else if(str.contentEquals("input1=0")){
-                        return 0; //low
-                }
-                
-            }
-            */
-
-            in.close();
+             in.close();
 
         } catch (MalformedURLException ex) {
             WebCamClientCommLogger.error(ex);
@@ -179,7 +165,7 @@ public class WebCamClientComm implements PossibleMsgCmds {
                curStatus ="\\"; //inactive
            }
             URL url = new URL("http://" + ip + "/axis-cgi/io/output.cgi?action=" + curPort + ":" + curStatus);
-            String userPassword = "root" + ":" + "netcarity.7x1";
+            String userPassword = "<user>" + ":" + "<pass>";
             String encoding = new sun.misc.BASE64Encoder().encode (userPassword.getBytes());
             URLConnection uc = url.openConnection();
             uc.setRequestProperty ("Authorization", "Basic " + encoding);

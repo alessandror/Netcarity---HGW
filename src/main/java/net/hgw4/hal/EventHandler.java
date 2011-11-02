@@ -20,6 +20,10 @@ import java.util.Observable;
 import java.util.Observer;
 import org.apache.log4j.Logger;
 
+/**
+ * manages events with observer
+ * 
+ */
 
 public class EventHandler implements Observer {
 private Logger eventHandlerLogger = null;

@@ -28,17 +28,12 @@ import org.json.JSONObject;
  * 
  */
 public class SerialProtocol {
-    /**
-     *
-     */
+ 
     public JSONObject msg;
     String value = null;
     private Logger serialProtocolLogger;
     private int protocolNumber = 0;//default
     
-    /**
-     *
-     */
     public SerialProtocol(int num){
     serialProtocolLogger = Logger.getLogger(SerialProtocol.class.getName());
         serialProtocolLogger.setLevel(Level.ALL);
@@ -49,7 +44,7 @@ public class SerialProtocol {
     }
 
     /**
-     * 
+     * build a message
      * @return the message in raw byte to transmit
      */
     public String buildMessage(){
@@ -58,7 +53,7 @@ public class SerialProtocol {
     }
     
     /**
-     * 
+     * parse a message
      * @param val raw byte msg
      * @return json obj created message
      */

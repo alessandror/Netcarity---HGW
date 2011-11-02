@@ -19,7 +19,10 @@ package net.hgw4.hal;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 
-
+/**
+ * manage a data queue
+ * 
+ */
 public class DataQueue {
 private SensorDataLogic curSensorDataLogic = null;
 private CircularBuffer curCircularBuffer = null;
@@ -49,14 +52,18 @@ private Logger dataQueueLogger = null;
     }
 
     /**
-     *
+     * get data
      * @return JSONObject
      */
     public byte[] getData(){
         dataQueueLogger.info("--> getData <--");
         return (byte[]) curCircularBuffer.get();
     }
-
+    
+    /**
+     * process logic
+     * @param curDataIn 
+     */
     private void processSensorDataLogic( byte[] curDataIn) {
         dataQueueLogger.info("--> processSensorDataLogic <--");
         curSensorDataLogic.process(curDataIn);

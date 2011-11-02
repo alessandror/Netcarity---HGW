@@ -105,11 +105,9 @@ public class SerialComm {
                     try {
                         fillBufferIn(in);
                         Thread.sleep(10);
-                        //SerialCommLogger.info("ret val: " +ret);
                     } catch (InterruptedException ex) {
                         SerialCommLogger.error(ex);
                     }
-                    //SerialCommLogger.info("ret val: " +ret);
                 }
         }
     }
@@ -118,21 +116,16 @@ public class SerialComm {
         int i0=0;
         try{
           if((lenBufIn = in.read(bufIn)) > 0){
-           //SerialCommLogger.info("lenBufIn :  " + lenBufIn);
-           //SerialCommLogger.info("numMemebersListDataBufferIn :  " + numMemebersListDataBufferIn);
               for ( i0 = numMemebersListDataBufferIn; i0 < numMemebersListDataBufferIn + lenBufIn; i0++ ){
                   
                   bufInTot[i0]=bufIn[i0-numMemebersListDataBufferIn];
                   
-                  //SerialCommLogger.info("i0: " + i0);
                   String curdata = new String(bufInTot,numMemebersListDataBufferIn,(i0),"UTF-8");
-                  //SerialCommLogger.info(" data:  " + curdata);
               }
               numMemebersListDataBufferIn = i0 ;
 
               if(numMemebersListDataBufferIn  > LEVEL0){
                 String curdata = new String(bufInTot,0,(numMemebersListDataBufferIn),"UTF-8");
-                //SerialCommLogger.info("tot data:  " + curdata);
                 
                 //data copy
                 for (int i1 = 0;i1< numMemebersListDataBufferIn ;i1 ++){

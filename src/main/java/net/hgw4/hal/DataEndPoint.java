@@ -37,7 +37,7 @@ public class DataEndPoint {
     private String dataEndPointPriority = null;
     
     /**
-     *
+     * create end point
      * @param val
      */
     public DataEndPoint(CommTech val) {
@@ -50,44 +50,35 @@ public class DataEndPoint {
         this.curCommTech = val;
     }
 
-    // <editor-fold defaultstate="collapsed" desc=" UML Marker "> 
-    // #[regen=yes,id=DCE.ECD19088-1FB9-CF31-AD5F-FC1E86C15B12]
-    // </editor-fold> 
+    
     /**
-     *
-     * @return
+     * get endpoint id
+     * @return dataEndPointId
      */
     public String getEndPointId() {
         return dataEndPointId;
     }
 
-    // <editor-fold defaultstate="collapsed" desc=" UML Marker "> 
-    // #[regen=yes,id=DCE.DCCACEAE-C77C-4BCC-EB6E-CCD65D574622]
-    // </editor-fold> 
+
     /**
-     *
+     * set end point id
      * @param val
      */
     public void setEndPointId(String val) {
         dataEndPointId = val;
     }
 
-    // <editor-fold defaultstate="collapsed" desc=" UML Marker "> 
-    // #[regen=yes,id=DCE.22E98DE1-C1B8-ED03-A191-D95B4ED25E6A]
-    // </editor-fold> 
+
     /**
-     *
-     * @return
+     * get end point description
+     * @return dataEndPointDescr
      */
     public String getEndPointDescr() {
         return dataEndPointDescr;
     }
 
-    // <editor-fold defaultstate="collapsed" desc=" UML Marker "> 
-    // #[regen=yes,id=DCE.09E7C6D8-75C6-6AD8-8974-F91E49CAA979]
-    // </editor-fold> 
     /**
-     *
+     * set end point description
      * @param val
      */
     public void setEndPointDescr(String val) {
@@ -95,7 +86,7 @@ public class DataEndPoint {
     }
     
     /**
-     *
+     * set end poitn commtechid
      * @param val
      */
     public void setEndPointCommTechId(String val) {
@@ -103,49 +94,89 @@ public class DataEndPoint {
     }
     
     /**
-     *
-     * @return
+     * get end point comme tech id
+     * @return dataEndPointCommTechId
      */
     public String getEndPointCommTechId() {
         return dataEndPointCommTechId;
     }
-
+    
+    /**
+     * set end point coordinates
+     * @param string 
+     */
     public void setEndPointCoordinates(String string) {
         dataEndPointCoordinates = string;
     }
 
+    /** set end poinr data range max
+     * 
+     * @param string 
+     */
     public void setEndPointDataRangeMax(String string) {
         dataEndPointEndPointDataRangeMax = string;
     }
-
+    
+    /**
+     * set end poinr data range min
+     * @param string 
+     */
     public void setEndPointDataRangeMin(String string) {
         dataEndPointEndPointDataRangeMin = string;
     }
 
+    /**
+     * set end point position
+     * @param string 
+     */
     public void setEndPointPosition(String string) {
         dataEndPointPosition = string;
     }
 
+    /**
+     * set end point priority 
+     * @param string 
+     */
     public void setEndPointPriority(String string) {
         dataEndPointPriority = string;
     }
-
+    
+    /**
+     * get end poitn coordinates
+     * @return dataEndPointCoordinates
+     */
     public String getEndPointCoordinates() {
         return dataEndPointCoordinates;
     }
-
+    
+    /**
+     * get ens point data range max
+     * @return dataEndPointEndPointDataRangeMax
+     */
     public String getEndPointDataRangeMax() {
         return dataEndPointEndPointDataRangeMax;
     }
 
+    /**
+     * get endpoitn data range min
+     * @return dataEndPointEndPointDataRangeMin
+     */
     public String getEndPointDataRangeMin() {
         return dataEndPointEndPointDataRangeMin;
     }
-
+    
+    /**
+     * get end point position
+     * @return dataEndPointPosition
+     */
     public String getEndPointPosition() {
         return dataEndPointPosition;
     }
-
+    
+    /**
+     * get end point priority
+     * @return dataEndPointPriority
+     */
     public String getEndPointPriority() {
         return dataEndPointPriority;
     }

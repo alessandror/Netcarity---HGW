@@ -67,58 +67,43 @@ public class Configurator {
 
         configuratorLogger.info("Configurator - createNode");
 
-        //leggo il file intero
+        //read file
         configuratorLogger.info("Configurator - read config file");
         curJsonConfig = new JSONObject(readConfig(configFile));
-        //test per conversione XML
-        /*
-        XML myXml = new XML();
-        String jsonToXml = new String("");
-        jsonToXml = myXml.toString(curJsonConfig);
-        */
-        //System.out.println(curJsonConfig.getString("hgw3"));
         
-        //leggo il vocabolario dei nodes
+        //read nodes
         JSONObject curJsonConfig1 = new JSONObject(curJsonConfig.getString("hgw3"));
         
-        //leggo array di configurazione dei nodes
+        //read node configurations
         JSONArray curNodeConfig = new JSONArray(curJsonConfig1.getString("nodes"));
           
-        //creo i nodi
+        //create nodes
         configuratorLogger.info("Configurator - create nodes");
        
         for (int i0=0;i0<curNodeConfig.length();i0++){
-            //System.out.println(curNodeConfig.getString(i0));
-            //prendo la config i-esima 
+
             JSONObject nodeConfig1 = new JSONObject(curNodeConfig.getString(i0));
-            //creo il nodo
+
             Node node = new Node();
-            //leggo la config del nodo
+
             node.setNodeId(nodeConfig1.getString("nodeid"));
             node.setNodeDescription(nodeConfig1.getString("nodedescription"));
             node.setNodeType(nodeConfig1.getString("nodetype"));
             
-            //System.out.println(nodeConfig1.getString("dataendpoint"));
-            //creo end point logico associato al fisico
             JSONArray curDataEndPointList = new JSONArray(nodeConfig1.getString("dataendpoint"));
             for (int i1=0;i1<curDataEndPointList.length();i1++){
                 JSONObject curDataEndPointConfig = new JSONObject(curDataEndPointList.getString(i1));
                  
-                //passo la configurazione della tecnologia di comunicazione(ip,bluetooth,etc) a CommTech
                 JSONObject curJsonCommProtocolConfig = new JSONObject(curJsonConfig.getString(curDataEndPointConfig.getString("commtechid")));
                
-                //creo la comm tech
                 CommTech curCommTech = new CommTech(curJsonCommProtocolConfig);
                 
-                //leggo la commtech config
                 if (node.getNodeType().compareToIgnoreCase("sensor") >=0) {
                     curCommTech.setTiming(curDataEndPointConfig.getString("timing"));
                 }
                 curCommTech.setProtocolId(curDataEndPointConfig.getString("commprotocol"));
                 
-                //creo il data end point
                 DataEndPoint curDataEndPoint = new DataEndPoint(curCommTech);
-                //leggo il data end point config
                 curDataEndPoint.setEndPointDescr(curDataEndPointConfig.getString("endpointdescription"));
                 curDataEndPoint.setEndPointId(curDataEndPointConfig.getString("endpointid"));
                 curDataEndPoint.setEndPointCommTechId(curDataEndPointConfig.getString("endpointid"));
@@ -129,19 +114,16 @@ public class Configurator {
                     curDataEndPoint.setEndPointDataRangeMax(curDataEndPointConfig.getString("data range max"));
                     curDataEndPoint.setEndPointPriority(curDataEndPointConfig.getString("priority"));
                 }
-                //carico endpoints per il nodo 
                 node.setEndPointList(curDataEndPoint);
             
             }
-            //carico la lista dei nodi
             nodeList.add(node);
-           // System.out.println("temp");
         }
     }
     
     
     /**
-     *      
+     * read configuration file   
      * @param filePath 
      * @return string from file description
      */
@@ -167,14 +149,9 @@ public class Configurator {
     
     }
     
+
     /**
-     *
-     */
-    public void writeConfig(){
-        
-    }
-    /**
-     * 
+     * get hal ocnfiguration
      * @return json obj from file description
      */
     public JSONObject getHalConfig(){
@@ -184,8 +161,9 @@ public class Configurator {
             return null;
         }
     }
+    
     /**
-     * 
+     * get cur node configuration
      * @return json object with entire current config
      */
     public JSONObject getCurNodeConfig(){

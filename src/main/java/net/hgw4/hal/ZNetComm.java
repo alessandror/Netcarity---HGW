@@ -29,6 +29,10 @@ import java.nio.ByteBuffer;
 import java.nio.IntBuffer;
 import java.util.List;
 
+/**
+ * zigbee manager
+ * 
+ */
 public class ZNetComm {
 
     private final static Logger log = Logger.getLogger(ZNetComm.class);
@@ -61,8 +65,7 @@ public class ZNetComm {
             XBee xbee = new XBee();
             try {
                 // replace with the com port of your receiving XBee (typically your end device)
-                //[ALE]
-                xbee.open(curPort, curBaud); //[ALE]
+                xbee.open(curPort, curBaud); 
             } catch (XBeeException ex) {
                 log.error(ex);
             }
@@ -101,12 +104,7 @@ public class ZNetComm {
                 } catch (Exception e) {
                     log.error(e);
                 }
-//TODO: meccanismo di stop dei thread di basso livello
-//                finally {
-//                    xbee.close();
-//                }
            }
-           
         }
     }
     

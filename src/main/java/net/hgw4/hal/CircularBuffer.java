@@ -17,6 +17,11 @@ package net.hgw4.hal;
 import java.nio.BufferOverflowException;
 import java.nio.BufferUnderflowException;
 
+/**
+ * manages circular buffers
+ * 
+ * @param <T> 
+ */
 public class CircularBuffer<T> {
 
   private T[] buffer;

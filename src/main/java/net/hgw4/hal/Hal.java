@@ -25,7 +25,7 @@ import org.apache.log4j.PropertyConfigurator;
 import org.json.JSONObject;
 
 /**
- * manages the in home hardware, configuration, data collection and command execution
+ * HAL manages the in home hardware, configuration, data collection and command execution
  * 
 */
 
@@ -41,7 +41,7 @@ public final class Hal {
     public EventHandler curEventHandler = null;
     
     /**
-     * call Configurator and set curConfig
+     * call Configurator load and set curConfig
      */
     
     public Hal () {
@@ -194,7 +194,7 @@ public final class Hal {
 
 
     /**
-     *  
+     *  get sensor data
      * @param nodeId to poll
      * @param endPointId to poll
      * @return json obj for sensor data description 
@@ -303,7 +303,11 @@ public final class Hal {
         return curConfig.getCurNodeConfig();
     }
 
-    public EventHandler setEventHandlerRef(){
+    /**
+     * get event handler ref
+     * @return current Event handler ref 
+     */
+    public EventHandler getEventHandlerRef(){
          halLogger.info("Hal - getEventHandlerRef ");
 
          return curEventHandler;

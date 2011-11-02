@@ -1,0 +1,680 @@
+[2011-10-05 15:22:39,044] [main] [INFO] [net.hgw4.HGWTest] --> TestAle <-- 
+[2011-10-05 15:22:39,048] [main] [INFO] [net.hgw4.hal.Hal] --> Hal <-- 
+[2011-10-05 15:22:39,048] [main] [INFO] [net.hgw4.hal.Hal] cur config file path: /home/ale/mrd_github/Netcarity---HGW/halConfigs/halConfig 
+[2011-10-05 15:22:39,051] [main] [INFO] [net.hgw4.hal.Configurator] --> Configurator <-- 
+[2011-10-05 15:22:39,051] [main] [INFO] [net.hgw4.hal.Configurator] Configurator - createNode 
+[2011-10-05 15:22:39,051] [main] [INFO] [net.hgw4.hal.Configurator] Configurator - read config file 
+[2011-10-05 15:22:39,058] [main] [INFO] [net.hgw4.hal.Configurator] Configurator - create nodes 
+[2011-10-05 15:22:39,066] [main] [INFO] [net.hgw4.hal.CommTech] --> CommTech <-- 
+[2011-10-05 15:22:39,066] [main] [INFO] [net.hgw4.hal.CommTech] CommTech - in createAndConfigCommTech 
+[2011-10-05 15:22:39,069] [main] [INFO] [net.hgw4.hal.SerialComm] --> SerialComm <-- 
+[2011-10-05 15:22:39,378] [main] [INFO] [net.hgw4.hal.CommTech] --> DataQueue <-- 
+[2011-10-05 15:22:39,381] [main] [INFO] [net.hgw4.hal.CommTech] --> SensorDataLogic <-- 
+[2011-10-05 15:22:39,381] [main] [INFO] [net.hgw4.hal.CommTech] --> SensorDataLogic <--checkValue 
+[2011-10-05 15:22:39,382] [main] [INFO] [net.hgw4.hal.CommTech] CommTech - create threads 
+[2011-10-05 15:22:39,385] [main] [INFO] [net.hgw4.hal.DataEndPoint] --> DataEndPoint <-- 
+[2011-10-05 15:22:39,385] [main] [INFO] [net.hgw4.hal.Hal] Hal - startInternalEventHandler  
+[2011-10-05 15:22:39,386] [main] [INFO] [net.hgw4.hal.EventHandler] --> EventHandler <-- 
+[2011-10-05 15:22:39,386] [main] [INFO] [net.hgw4.hal.CommTech] CommTech - in setEventHandler 
+[2011-10-05 15:22:39,386] [main] [INFO] [net.hgw4.hal.Hal] Hal - startExternalEventHandler  
+[2011-10-05 15:22:39,386] [main] [INFO] [net.hgw4.hal.Hal] Hal - startAllDataCollecting  
+[2011-10-05 15:22:39,886] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] CommTech - in DataCollectorThreadRun 
+[2011-10-05 15:22:39,886] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> insertData <-- 
+[2011-10-05 15:22:39,886] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> processSensorDataLogic <-- 
+[2011-10-05 15:22:39,886] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> process <-- 
+[2011-10-05 15:22:40,386] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] TestAle TimerTask getDataFromSerial()  
+[2011-10-05 15:22:40,386] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] ------------------ Serial Temp Sensor ------------------------ 
+[2011-10-05 15:22:40,386] [poll data from temp sensor] [INFO] [net.hgw4.hal.Hal] Hal - pollSensors  
+[2011-10-05 15:22:40,386] [poll data from temp sensor] [INFO] [net.hgw4.hal.CommTech] CommTech - in getCurSensData 
+[2011-10-05 15:22:40,386] [poll data from temp sensor] [INFO] [net.hgw4.hal.CommTech] --> getData <-- 
+[2011-10-05 15:22:40,388] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] CommTech - in DataCollectorThreadRun 
+[2011-10-05 15:22:40,388] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> insertData <-- 
+[2011-10-05 15:22:40,388] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> processSensorDataLogic <-- 
+[2011-10-05 15:22:40,388] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> process <-- 
+[2011-10-05 15:22:40,399] [poll data from temp sensor] [INFO] [net.hgw4.hal.CommTech] serial1 curMsg: {"value":"noData"} 
+[2011-10-05 15:22:40,402] [poll data from temp sensor] [INFO] [net.hgw4.hal.DataMsgBuilder] --> DataMsgBuilderLogger <-- 
+[2011-10-05 15:22:40,406] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] sensor:0003 
+[2011-10-05 15:22:40,406] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] endpoint:0001 
+[2011-10-05 15:22:40,406] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] msgid:2 
+[2011-10-05 15:22:40,406] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] timestamp:Wed Oct 05 15:22:40 CEST 2011 
+[2011-10-05 15:22:40,406] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] data:noData 
+[2011-10-05 15:22:40,888] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] CommTech - in DataCollectorThreadRun 
+[2011-10-05 15:22:40,888] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> insertData <-- 
+[2011-10-05 15:22:40,888] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> processSensorDataLogic <-- 
+[2011-10-05 15:22:40,888] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> process <-- 
+[2011-10-05 15:22:41,386] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] TestAle TimerTask getDataFromSerial()  
+[2011-10-05 15:22:41,386] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] ------------------ Serial Temp Sensor ------------------------ 
+[2011-10-05 15:22:41,386] [poll data from temp sensor] [INFO] [net.hgw4.hal.Hal] Hal - pollSensors  
+[2011-10-05 15:22:41,386] [poll data from temp sensor] [INFO] [net.hgw4.hal.CommTech] CommTech - in getCurSensData 
+[2011-10-05 15:22:41,386] [poll data from temp sensor] [INFO] [net.hgw4.hal.CommTech] --> getData <-- 
+[2011-10-05 15:22:41,387] [poll data from temp sensor] [INFO] [net.hgw4.hal.CommTech] serial1 curMsg: {"value":"noData"} 
+[2011-10-05 15:22:41,388] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] CommTech - in DataCollectorThreadRun 
+[2011-10-05 15:22:41,388] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> insertData <-- 
+[2011-10-05 15:22:41,388] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> processSensorDataLogic <-- 
+[2011-10-05 15:22:41,388] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> process <-- 
+[2011-10-05 15:22:41,389] [poll data from temp sensor] [INFO] [net.hgw4.hal.DataMsgBuilder] --> DataMsgBuilderLogger <-- 
+[2011-10-05 15:22:41,390] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] sensor:0003 
+[2011-10-05 15:22:41,390] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] endpoint:0001 
+[2011-10-05 15:22:41,390] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] msgid:4 
+[2011-10-05 15:22:41,390] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] timestamp:Wed Oct 05 15:22:41 CEST 2011 
+[2011-10-05 15:22:41,390] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] data:noData 
+[2011-10-05 15:22:41,888] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] CommTech - in DataCollectorThreadRun 
+[2011-10-05 15:22:41,889] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> insertData <-- 
+[2011-10-05 15:22:41,889] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> processSensorDataLogic <-- 
+[2011-10-05 15:22:41,889] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> process <-- 
+[2011-10-05 15:22:42,386] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] TestAle TimerTask getDataFromSerial()  
+[2011-10-05 15:22:42,386] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] ------------------ Serial Temp Sensor ------------------------ 
+[2011-10-05 15:22:42,386] [poll data from temp sensor] [INFO] [net.hgw4.hal.Hal] Hal - pollSensors  
+[2011-10-05 15:22:42,386] [poll data from temp sensor] [INFO] [net.hgw4.hal.CommTech] CommTech - in getCurSensData 
+[2011-10-05 15:22:42,386] [poll data from temp sensor] [INFO] [net.hgw4.hal.CommTech] --> getData <-- 
+[2011-10-05 15:22:42,386] [poll data from temp sensor] [INFO] [net.hgw4.hal.CommTech] serial1 curMsg: {"value":"noData"} 
+[2011-10-05 15:22:42,388] [poll data from temp sensor] [INFO] [net.hgw4.hal.DataMsgBuilder] --> DataMsgBuilderLogger <-- 
+[2011-10-05 15:22:42,389] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] CommTech - in DataCollectorThreadRun 
+[2011-10-05 15:22:42,389] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> insertData <-- 
+[2011-10-05 15:22:42,389] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> processSensorDataLogic <-- 
+[2011-10-05 15:22:42,389] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> process <-- 
+[2011-10-05 15:22:42,389] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] sensor:0003 
+[2011-10-05 15:22:42,389] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] endpoint:0001 
+[2011-10-05 15:22:42,389] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] msgid:6 
+[2011-10-05 15:22:42,389] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] timestamp:Wed Oct 05 15:22:42 CEST 2011 
+[2011-10-05 15:22:42,389] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] data:noData 
+[2011-10-05 15:22:42,889] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] CommTech - in DataCollectorThreadRun 
+[2011-10-05 15:22:42,889] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> insertData <-- 
+[2011-10-05 15:22:42,889] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> processSensorDataLogic <-- 
+[2011-10-05 15:22:42,889] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> process <-- 
+[2011-10-05 15:22:43,386] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] TestAle TimerTask getDataFromSerial()  
+[2011-10-05 15:22:43,386] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] ------------------ Serial Temp Sensor ------------------------ 
+[2011-10-05 15:22:43,386] [poll data from temp sensor] [INFO] [net.hgw4.hal.Hal] Hal - pollSensors  
+[2011-10-05 15:22:43,386] [poll data from temp sensor] [INFO] [net.hgw4.hal.CommTech] CommTech - in getCurSensData 
+[2011-10-05 15:22:43,386] [poll data from temp sensor] [INFO] [net.hgw4.hal.CommTech] --> getData <-- 
+[2011-10-05 15:22:43,387] [poll data from temp sensor] [INFO] [net.hgw4.hal.CommTech] serial1 curMsg: {"value":"411"} 
+[2011-10-05 15:22:43,388] [poll data from temp sensor] [INFO] [net.hgw4.hal.DataMsgBuilder] --> DataMsgBuilderLogger <-- 
+[2011-10-05 15:22:43,389] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] sensor:0003 
+[2011-10-05 15:22:43,389] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] endpoint:0001 
+[2011-10-05 15:22:43,389] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] msgid:8 
+[2011-10-05 15:22:43,389] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] timestamp:Wed Oct 05 15:22:43 CEST 2011 
+[2011-10-05 15:22:43,389] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] CommTech - in DataCollectorThreadRun 
+[2011-10-05 15:22:43,390] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> insertData <-- 
+[2011-10-05 15:22:43,390] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> processSensorDataLogic <-- 
+[2011-10-05 15:22:43,390] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> process <-- 
+[2011-10-05 15:22:43,391] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] data:16.579998 
+[2011-10-05 15:22:43,890] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] CommTech - in DataCollectorThreadRun 
+[2011-10-05 15:22:43,890] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> insertData <-- 
+[2011-10-05 15:22:43,890] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> processSensorDataLogic <-- 
+[2011-10-05 15:22:43,890] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> process <-- 
+[2011-10-05 15:22:44,386] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] TestAle TimerTask getDataFromSerial()  
+[2011-10-05 15:22:44,386] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] ------------------ Serial Temp Sensor ------------------------ 
+[2011-10-05 15:22:44,386] [poll data from temp sensor] [INFO] [net.hgw4.hal.Hal] Hal - pollSensors  
+[2011-10-05 15:22:44,386] [poll data from temp sensor] [INFO] [net.hgw4.hal.CommTech] CommTech - in getCurSensData 
+[2011-10-05 15:22:44,386] [poll data from temp sensor] [INFO] [net.hgw4.hal.CommTech] --> getData <-- 
+[2011-10-05 15:22:44,387] [poll data from temp sensor] [INFO] [net.hgw4.hal.CommTech] serial1 curMsg: {"value":"411"} 
+[2011-10-05 15:22:44,388] [poll data from temp sensor] [INFO] [net.hgw4.hal.DataMsgBuilder] --> DataMsgBuilderLogger <-- 
+[2011-10-05 15:22:44,389] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] sensor:0003 
+[2011-10-05 15:22:44,389] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] endpoint:0001 
+[2011-10-05 15:22:44,389] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] msgid:10 
+[2011-10-05 15:22:44,389] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] timestamp:Wed Oct 05 15:22:44 CEST 2011 
+[2011-10-05 15:22:44,389] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] data:16.579998 
+[2011-10-05 15:22:44,391] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] CommTech - in DataCollectorThreadRun 
+[2011-10-05 15:22:44,391] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> insertData <-- 
+[2011-10-05 15:22:44,391] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> processSensorDataLogic <-- 
+[2011-10-05 15:22:44,391] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> process <-- 
+[2011-10-05 15:22:44,891] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] CommTech - in DataCollectorThreadRun 
+[2011-10-05 15:22:44,891] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> insertData <-- 
+[2011-10-05 15:22:44,891] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> processSensorDataLogic <-- 
+[2011-10-05 15:22:44,891] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> process <-- 
+[2011-10-05 15:22:45,386] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] TestAle TimerTask getDataFromSerial()  
+[2011-10-05 15:22:45,386] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] ------------------ Serial Temp Sensor ------------------------ 
+[2011-10-05 15:22:45,386] [poll data from temp sensor] [INFO] [net.hgw4.hal.Hal] Hal - pollSensors  
+[2011-10-05 15:22:45,386] [poll data from temp sensor] [INFO] [net.hgw4.hal.CommTech] CommTech - in getCurSensData 
+[2011-10-05 15:22:45,386] [poll data from temp sensor] [INFO] [net.hgw4.hal.CommTech] --> getData <-- 
+[2011-10-05 15:22:45,387] [poll data from temp sensor] [INFO] [net.hgw4.hal.CommTech] serial1 curMsg: {"value":"411"} 
+[2011-10-05 15:22:45,389] [poll data from temp sensor] [INFO] [net.hgw4.hal.DataMsgBuilder] --> DataMsgBuilderLogger <-- 
+[2011-10-05 15:22:45,389] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] sensor:0003 
+[2011-10-05 15:22:45,389] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] endpoint:0001 
+[2011-10-05 15:22:45,389] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] msgid:12 
+[2011-10-05 15:22:45,389] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] timestamp:Wed Oct 05 15:22:45 CEST 2011 
+[2011-10-05 15:22:45,389] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] data:16.579998 
+[2011-10-05 15:22:45,391] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] CommTech - in DataCollectorThreadRun 
+[2011-10-05 15:22:45,392] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> insertData <-- 
+[2011-10-05 15:22:45,392] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> processSensorDataLogic <-- 
+[2011-10-05 15:22:45,392] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> process <-- 
+[2011-10-05 15:22:45,892] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] CommTech - in DataCollectorThreadRun 
+[2011-10-05 15:22:45,892] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> insertData <-- 
+[2011-10-05 15:22:45,892] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> processSensorDataLogic <-- 
+[2011-10-05 15:22:45,892] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> process <-- 
+[2011-10-05 15:22:46,386] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] TestAle TimerTask getDataFromSerial()  
+[2011-10-05 15:22:46,386] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] ------------------ Serial Temp Sensor ------------------------ 
+[2011-10-05 15:22:46,386] [poll data from temp sensor] [INFO] [net.hgw4.hal.Hal] Hal - pollSensors  
+[2011-10-05 15:22:46,386] [poll data from temp sensor] [INFO] [net.hgw4.hal.CommTech] CommTech - in getCurSensData 
+[2011-10-05 15:22:46,386] [poll data from temp sensor] [INFO] [net.hgw4.hal.CommTech] --> getData <-- 
+[2011-10-05 15:22:46,387] [poll data from temp sensor] [INFO] [net.hgw4.hal.CommTech] serial1 curMsg: {"value":"411"} 
+[2011-10-05 15:22:46,388] [poll data from temp sensor] [INFO] [net.hgw4.hal.DataMsgBuilder] --> DataMsgBuilderLogger <-- 
+[2011-10-05 15:22:46,389] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] sensor:0003 
+[2011-10-05 15:22:46,389] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] endpoint:0001 
+[2011-10-05 15:22:46,389] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] msgid:14 
+[2011-10-05 15:22:46,389] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] timestamp:Wed Oct 05 15:22:46 CEST 2011 
+[2011-10-05 15:22:46,389] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] data:16.579998 
+[2011-10-05 15:22:46,392] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] CommTech - in DataCollectorThreadRun 
+[2011-10-05 15:22:46,393] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> insertData <-- 
+[2011-10-05 15:22:46,393] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> processSensorDataLogic <-- 
+[2011-10-05 15:22:46,393] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> process <-- 
+[2011-10-05 15:22:46,893] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] CommTech - in DataCollectorThreadRun 
+[2011-10-05 15:22:46,893] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> insertData <-- 
+[2011-10-05 15:22:46,893] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> processSensorDataLogic <-- 
+[2011-10-05 15:22:46,893] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> process <-- 
+[2011-10-05 15:22:47,386] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] TestAle TimerTask getDataFromSerial()  
+[2011-10-05 15:22:47,386] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] ------------------ Serial Temp Sensor ------------------------ 
+[2011-10-05 15:22:47,386] [poll data from temp sensor] [INFO] [net.hgw4.hal.Hal] Hal - pollSensors  
+[2011-10-05 15:22:47,386] [poll data from temp sensor] [INFO] [net.hgw4.hal.CommTech] CommTech - in getCurSensData 
+[2011-10-05 15:22:47,386] [poll data from temp sensor] [INFO] [net.hgw4.hal.CommTech] --> getData <-- 
+[2011-10-05 15:22:47,386] [poll data from temp sensor] [INFO] [net.hgw4.hal.CommTech] serial1 curMsg: {"value":"411"} 
+[2011-10-05 15:22:47,393] [poll data from temp sensor] [INFO] [net.hgw4.hal.DataMsgBuilder] --> DataMsgBuilderLogger <-- 
+[2011-10-05 15:22:47,393] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] CommTech - in DataCollectorThreadRun 
+[2011-10-05 15:22:47,394] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> insertData <-- 
+[2011-10-05 15:22:47,394] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> processSensorDataLogic <-- 
+[2011-10-05 15:22:47,394] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> process <-- 
+[2011-10-05 15:22:47,394] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] sensor:0003 
+[2011-10-05 15:22:47,394] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] endpoint:0001 
+[2011-10-05 15:22:47,394] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] msgid:16 
+[2011-10-05 15:22:47,394] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] timestamp:Wed Oct 05 15:22:47 CEST 2011 
+[2011-10-05 15:22:47,394] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] data:16.579998 
+[2011-10-05 15:22:47,894] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] CommTech - in DataCollectorThreadRun 
+[2011-10-05 15:22:47,894] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> insertData <-- 
+[2011-10-05 15:22:47,894] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> processSensorDataLogic <-- 
+[2011-10-05 15:22:47,894] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> process <-- 
+[2011-10-05 15:22:48,386] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] TestAle TimerTask getDataFromSerial()  
+[2011-10-05 15:22:48,386] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] ------------------ Serial Temp Sensor ------------------------ 
+[2011-10-05 15:22:48,387] [poll data from temp sensor] [INFO] [net.hgw4.hal.Hal] Hal - pollSensors  
+[2011-10-05 15:22:48,387] [poll data from temp sensor] [INFO] [net.hgw4.hal.CommTech] CommTech - in getCurSensData 
+[2011-10-05 15:22:48,387] [poll data from temp sensor] [INFO] [net.hgw4.hal.CommTech] --> getData <-- 
+[2011-10-05 15:22:48,387] [poll data from temp sensor] [INFO] [net.hgw4.hal.CommTech] serial1 curMsg: {"value":"411"} 
+[2011-10-05 15:22:48,389] [poll data from temp sensor] [INFO] [net.hgw4.hal.DataMsgBuilder] --> DataMsgBuilderLogger <-- 
+[2011-10-05 15:22:48,389] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] sensor:0003 
+[2011-10-05 15:22:48,389] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] endpoint:0001 
+[2011-10-05 15:22:48,389] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] msgid:18 
+[2011-10-05 15:22:48,390] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] timestamp:Wed Oct 05 15:22:48 CEST 2011 
+[2011-10-05 15:22:48,390] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] data:16.579998 
+[2011-10-05 15:22:48,394] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] CommTech - in DataCollectorThreadRun 
+[2011-10-05 15:22:48,394] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> insertData <-- 
+[2011-10-05 15:22:48,395] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> processSensorDataLogic <-- 
+[2011-10-05 15:22:48,395] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> process <-- 
+[2011-10-05 15:22:48,895] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] CommTech - in DataCollectorThreadRun 
+[2011-10-05 15:22:48,895] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> insertData <-- 
+[2011-10-05 15:22:48,895] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> processSensorDataLogic <-- 
+[2011-10-05 15:22:48,895] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> process <-- 
+[2011-10-05 15:22:49,386] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] TestAle TimerTask getDataFromSerial()  
+[2011-10-05 15:22:49,386] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] ------------------ Serial Temp Sensor ------------------------ 
+[2011-10-05 15:22:49,386] [poll data from temp sensor] [INFO] [net.hgw4.hal.Hal] Hal - pollSensors  
+[2011-10-05 15:22:49,386] [poll data from temp sensor] [INFO] [net.hgw4.hal.CommTech] CommTech - in getCurSensData 
+[2011-10-05 15:22:49,386] [poll data from temp sensor] [INFO] [net.hgw4.hal.CommTech] --> getData <-- 
+[2011-10-05 15:22:49,387] [poll data from temp sensor] [INFO] [net.hgw4.hal.CommTech] serial1 curMsg: {"value":"414"} 
+[2011-10-05 15:22:49,388] [poll data from temp sensor] [INFO] [net.hgw4.hal.DataMsgBuilder] --> DataMsgBuilderLogger <-- 
+[2011-10-05 15:22:49,389] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] sensor:0003 
+[2011-10-05 15:22:49,389] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] endpoint:0001 
+[2011-10-05 15:22:49,389] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] msgid:20 
+[2011-10-05 15:22:49,389] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] timestamp:Wed Oct 05 15:22:49 CEST 2011 
+[2011-10-05 15:22:49,389] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] data:16.819996 
+[2011-10-05 15:22:49,395] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] CommTech - in DataCollectorThreadRun 
+[2011-10-05 15:22:49,395] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> insertData <-- 
+[2011-10-05 15:22:49,395] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> processSensorDataLogic <-- 
+[2011-10-05 15:22:49,395] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> process <-- 
+[2011-10-05 15:22:49,896] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] CommTech - in DataCollectorThreadRun 
+[2011-10-05 15:22:49,896] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> insertData <-- 
+[2011-10-05 15:22:49,896] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> processSensorDataLogic <-- 
+[2011-10-05 15:22:49,896] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> process <-- 
+[2011-10-05 15:22:50,386] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] TestAle TimerTask getDataFromSerial()  
+[2011-10-05 15:22:50,386] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] ------------------ Serial Temp Sensor ------------------------ 
+[2011-10-05 15:22:50,386] [poll data from temp sensor] [INFO] [net.hgw4.hal.Hal] Hal - pollSensors  
+[2011-10-05 15:22:50,386] [poll data from temp sensor] [INFO] [net.hgw4.hal.CommTech] CommTech - in getCurSensData 
+[2011-10-05 15:22:50,386] [poll data from temp sensor] [INFO] [net.hgw4.hal.CommTech] --> getData <-- 
+[2011-10-05 15:22:50,387] [poll data from temp sensor] [INFO] [net.hgw4.hal.CommTech] serial1 curMsg: {"value":"414"} 
+[2011-10-05 15:22:50,388] [poll data from temp sensor] [INFO] [net.hgw4.hal.DataMsgBuilder] --> DataMsgBuilderLogger <-- 
+[2011-10-05 15:22:50,389] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] sensor:0003 
+[2011-10-05 15:22:50,389] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] endpoint:0001 
+[2011-10-05 15:22:50,389] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] msgid:22 
+[2011-10-05 15:22:50,389] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] timestamp:Wed Oct 05 15:22:50 CEST 2011 
+[2011-10-05 15:22:50,389] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] data:16.819996 
+[2011-10-05 15:22:50,396] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] CommTech - in DataCollectorThreadRun 
+[2011-10-05 15:22:50,396] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> insertData <-- 
+[2011-10-05 15:22:50,396] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> processSensorDataLogic <-- 
+[2011-10-05 15:22:50,396] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> process <-- 
+[2011-10-05 15:22:50,896] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] CommTech - in DataCollectorThreadRun 
+[2011-10-05 15:22:50,896] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> insertData <-- 
+[2011-10-05 15:22:50,896] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> processSensorDataLogic <-- 
+[2011-10-05 15:22:50,897] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> process <-- 
+[2011-10-05 15:22:51,386] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] TestAle TimerTask getDataFromSerial()  
+[2011-10-05 15:22:51,387] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] ------------------ Serial Temp Sensor ------------------------ 
+[2011-10-05 15:22:51,387] [poll data from temp sensor] [INFO] [net.hgw4.hal.Hal] Hal - pollSensors  
+[2011-10-05 15:22:51,387] [poll data from temp sensor] [INFO] [net.hgw4.hal.CommTech] CommTech - in getCurSensData 
+[2011-10-05 15:22:51,387] [poll data from temp sensor] [INFO] [net.hgw4.hal.CommTech] --> getData <-- 
+[2011-10-05 15:22:51,387] [poll data from temp sensor] [INFO] [net.hgw4.hal.CommTech] serial1 curMsg: {"value":"414"} 
+[2011-10-05 15:22:51,389] [poll data from temp sensor] [INFO] [net.hgw4.hal.DataMsgBuilder] --> DataMsgBuilderLogger <-- 
+[2011-10-05 15:22:51,389] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] sensor:0003 
+[2011-10-05 15:22:51,389] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] endpoint:0001 
+[2011-10-05 15:22:51,389] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] msgid:24 
+[2011-10-05 15:22:51,389] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] timestamp:Wed Oct 05 15:22:51 CEST 2011 
+[2011-10-05 15:22:51,389] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] data:16.819996 
+[2011-10-05 15:22:51,397] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] CommTech - in DataCollectorThreadRun 
+[2011-10-05 15:22:51,397] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> insertData <-- 
+[2011-10-05 15:22:51,397] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> processSensorDataLogic <-- 
+[2011-10-05 15:22:51,397] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> process <-- 
+[2011-10-05 15:22:51,897] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] CommTech - in DataCollectorThreadRun 
+[2011-10-05 15:22:51,897] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> insertData <-- 
+[2011-10-05 15:22:51,897] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> processSensorDataLogic <-- 
+[2011-10-05 15:22:51,897] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> process <-- 
+[2011-10-05 15:22:52,386] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] TestAle TimerTask getDataFromSerial()  
+[2011-10-05 15:22:52,386] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] ------------------ Serial Temp Sensor ------------------------ 
+[2011-10-05 15:22:52,386] [poll data from temp sensor] [INFO] [net.hgw4.hal.Hal] Hal - pollSensors  
+[2011-10-05 15:22:52,386] [poll data from temp sensor] [INFO] [net.hgw4.hal.CommTech] CommTech - in getCurSensData 
+[2011-10-05 15:22:52,387] [poll data from temp sensor] [INFO] [net.hgw4.hal.CommTech] --> getData <-- 
+[2011-10-05 15:22:52,387] [poll data from temp sensor] [INFO] [net.hgw4.hal.CommTech] serial1 curMsg: {"value":"411"} 
+[2011-10-05 15:22:52,389] [poll data from temp sensor] [INFO] [net.hgw4.hal.DataMsgBuilder] --> DataMsgBuilderLogger <-- 
+[2011-10-05 15:22:52,389] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] sensor:0003 
+[2011-10-05 15:22:52,389] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] endpoint:0001 
+[2011-10-05 15:22:52,389] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] msgid:26 
+[2011-10-05 15:22:52,389] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] timestamp:Wed Oct 05 15:22:52 CEST 2011 
+[2011-10-05 15:22:52,389] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] data:16.579998 
+[2011-10-05 15:22:52,397] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] CommTech - in DataCollectorThreadRun 
+[2011-10-05 15:22:52,398] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> insertData <-- 
+[2011-10-05 15:22:52,398] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> processSensorDataLogic <-- 
+[2011-10-05 15:22:52,398] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> process <-- 
+[2011-10-05 15:22:52,898] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] CommTech - in DataCollectorThreadRun 
+[2011-10-05 15:22:52,898] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> insertData <-- 
+[2011-10-05 15:22:52,898] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> processSensorDataLogic <-- 
+[2011-10-05 15:22:52,898] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> process <-- 
+[2011-10-05 15:22:53,386] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] TestAle TimerTask getDataFromSerial()  
+[2011-10-05 15:22:53,387] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] ------------------ Serial Temp Sensor ------------------------ 
+[2011-10-05 15:22:53,387] [poll data from temp sensor] [INFO] [net.hgw4.hal.Hal] Hal - pollSensors  
+[2011-10-05 15:22:53,387] [poll data from temp sensor] [INFO] [net.hgw4.hal.CommTech] CommTech - in getCurSensData 
+[2011-10-05 15:22:53,387] [poll data from temp sensor] [INFO] [net.hgw4.hal.CommTech] --> getData <-- 
+[2011-10-05 15:22:53,388] [poll data from temp sensor] [INFO] [net.hgw4.hal.CommTech] serial1 curMsg: {"value":"411"} 
+[2011-10-05 15:22:53,389] [poll data from temp sensor] [INFO] [net.hgw4.hal.DataMsgBuilder] --> DataMsgBuilderLogger <-- 
+[2011-10-05 15:22:53,390] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] sensor:0003 
+[2011-10-05 15:22:53,390] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] endpoint:0001 
+[2011-10-05 15:22:53,390] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] msgid:28 
+[2011-10-05 15:22:53,390] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] timestamp:Wed Oct 05 15:22:53 CEST 2011 
+[2011-10-05 15:22:53,390] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] data:16.579998 
+[2011-10-05 15:22:53,398] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] CommTech - in DataCollectorThreadRun 
+[2011-10-05 15:22:53,399] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> insertData <-- 
+[2011-10-05 15:22:53,399] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> processSensorDataLogic <-- 
+[2011-10-05 15:22:53,399] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> process <-- 
+[2011-10-05 15:22:53,899] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] CommTech - in DataCollectorThreadRun 
+[2011-10-05 15:22:53,899] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> insertData <-- 
+[2011-10-05 15:22:53,899] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> processSensorDataLogic <-- 
+[2011-10-05 15:22:53,899] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> process <-- 
+[2011-10-05 15:22:54,386] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] TestAle TimerTask getDataFromSerial()  
+[2011-10-05 15:22:54,386] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] ------------------ Serial Temp Sensor ------------------------ 
+[2011-10-05 15:22:54,386] [poll data from temp sensor] [INFO] [net.hgw4.hal.Hal] Hal - pollSensors  
+[2011-10-05 15:22:54,386] [poll data from temp sensor] [INFO] [net.hgw4.hal.CommTech] CommTech - in getCurSensData 
+[2011-10-05 15:22:54,386] [poll data from temp sensor] [INFO] [net.hgw4.hal.CommTech] --> getData <-- 
+[2011-10-05 15:22:54,387] [poll data from temp sensor] [INFO] [net.hgw4.hal.CommTech] serial1 curMsg: {"value":"414"} 
+[2011-10-05 15:22:54,388] [poll data from temp sensor] [INFO] [net.hgw4.hal.DataMsgBuilder] --> DataMsgBuilderLogger <-- 
+[2011-10-05 15:22:54,389] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] sensor:0003 
+[2011-10-05 15:22:54,389] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] endpoint:0001 
+[2011-10-05 15:22:54,389] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] msgid:30 
+[2011-10-05 15:22:54,389] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] timestamp:Wed Oct 05 15:22:54 CEST 2011 
+[2011-10-05 15:22:54,389] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] data:16.819996 
+[2011-10-05 15:22:54,399] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] CommTech - in DataCollectorThreadRun 
+[2011-10-05 15:22:54,400] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> insertData <-- 
+[2011-10-05 15:22:54,400] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> processSensorDataLogic <-- 
+[2011-10-05 15:22:54,400] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> process <-- 
+[2011-10-05 15:22:54,900] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] CommTech - in DataCollectorThreadRun 
+[2011-10-05 15:22:54,900] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> insertData <-- 
+[2011-10-05 15:22:54,900] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> processSensorDataLogic <-- 
+[2011-10-05 15:22:54,900] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> process <-- 
+[2011-10-05 15:22:55,386] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] TestAle TimerTask getDataFromSerial()  
+[2011-10-05 15:22:55,386] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] ------------------ Serial Temp Sensor ------------------------ 
+[2011-10-05 15:22:55,386] [poll data from temp sensor] [INFO] [net.hgw4.hal.Hal] Hal - pollSensors  
+[2011-10-05 15:22:55,386] [poll data from temp sensor] [INFO] [net.hgw4.hal.CommTech] CommTech - in getCurSensData 
+[2011-10-05 15:22:55,386] [poll data from temp sensor] [INFO] [net.hgw4.hal.CommTech] --> getData <-- 
+[2011-10-05 15:22:55,387] [poll data from temp sensor] [INFO] [net.hgw4.hal.CommTech] serial1 curMsg: {"value":"414"} 
+[2011-10-05 15:22:55,388] [poll data from temp sensor] [INFO] [net.hgw4.hal.DataMsgBuilder] --> DataMsgBuilderLogger <-- 
+[2011-10-05 15:22:55,389] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] sensor:0003 
+[2011-10-05 15:22:55,389] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] endpoint:0001 
+[2011-10-05 15:22:55,389] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] msgid:32 
+[2011-10-05 15:22:55,389] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] timestamp:Wed Oct 05 15:22:55 CEST 2011 
+[2011-10-05 15:22:55,389] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] data:16.819996 
+[2011-10-05 15:22:55,400] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] CommTech - in DataCollectorThreadRun 
+[2011-10-05 15:22:55,400] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> insertData <-- 
+[2011-10-05 15:22:55,400] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> processSensorDataLogic <-- 
+[2011-10-05 15:22:55,400] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> process <-- 
+[2011-10-05 15:22:55,901] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] CommTech - in DataCollectorThreadRun 
+[2011-10-05 15:22:55,901] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> insertData <-- 
+[2011-10-05 15:22:55,901] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> processSensorDataLogic <-- 
+[2011-10-05 15:22:55,901] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> process <-- 
+[2011-10-05 15:22:56,386] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] TestAle TimerTask getDataFromSerial()  
+[2011-10-05 15:22:56,386] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] ------------------ Serial Temp Sensor ------------------------ 
+[2011-10-05 15:22:56,386] [poll data from temp sensor] [INFO] [net.hgw4.hal.Hal] Hal - pollSensors  
+[2011-10-05 15:22:56,386] [poll data from temp sensor] [INFO] [net.hgw4.hal.CommTech] CommTech - in getCurSensData 
+[2011-10-05 15:22:56,386] [poll data from temp sensor] [INFO] [net.hgw4.hal.CommTech] --> getData <-- 
+[2011-10-05 15:22:56,387] [poll data from temp sensor] [INFO] [net.hgw4.hal.CommTech] serial1 curMsg: {"value":"414"} 
+[2011-10-05 15:22:56,388] [poll data from temp sensor] [INFO] [net.hgw4.hal.DataMsgBuilder] --> DataMsgBuilderLogger <-- 
+[2011-10-05 15:22:56,389] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] sensor:0003 
+[2011-10-05 15:22:56,389] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] endpoint:0001 
+[2011-10-05 15:22:56,389] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] msgid:34 
+[2011-10-05 15:22:56,389] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] timestamp:Wed Oct 05 15:22:56 CEST 2011 
+[2011-10-05 15:22:56,389] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] data:16.819996 
+[2011-10-05 15:22:56,401] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] CommTech - in DataCollectorThreadRun 
+[2011-10-05 15:22:56,401] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> insertData <-- 
+[2011-10-05 15:22:56,401] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> processSensorDataLogic <-- 
+[2011-10-05 15:22:56,401] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> process <-- 
+[2011-10-05 15:22:56,901] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] CommTech - in DataCollectorThreadRun 
+[2011-10-05 15:22:56,901] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> insertData <-- 
+[2011-10-05 15:22:56,902] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> processSensorDataLogic <-- 
+[2011-10-05 15:22:56,902] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> process <-- 
+[2011-10-05 15:22:57,386] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] TestAle TimerTask getDataFromSerial()  
+[2011-10-05 15:22:57,386] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] ------------------ Serial Temp Sensor ------------------------ 
+[2011-10-05 15:22:57,386] [poll data from temp sensor] [INFO] [net.hgw4.hal.Hal] Hal - pollSensors  
+[2011-10-05 15:22:57,387] [poll data from temp sensor] [INFO] [net.hgw4.hal.CommTech] CommTech - in getCurSensData 
+[2011-10-05 15:22:57,387] [poll data from temp sensor] [INFO] [net.hgw4.hal.CommTech] --> getData <-- 
+[2011-10-05 15:22:57,387] [poll data from temp sensor] [INFO] [net.hgw4.hal.CommTech] serial1 curMsg: {"value":"411"} 
+[2011-10-05 15:22:57,388] [poll data from temp sensor] [INFO] [net.hgw4.hal.DataMsgBuilder] --> DataMsgBuilderLogger <-- 
+[2011-10-05 15:22:57,389] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] sensor:0003 
+[2011-10-05 15:22:57,389] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] endpoint:0001 
+[2011-10-05 15:22:57,389] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] msgid:36 
+[2011-10-05 15:22:57,389] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] timestamp:Wed Oct 05 15:22:57 CEST 2011 
+[2011-10-05 15:22:57,389] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] data:16.579998 
+[2011-10-05 15:22:57,402] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] CommTech - in DataCollectorThreadRun 
+[2011-10-05 15:22:57,402] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> insertData <-- 
+[2011-10-05 15:22:57,402] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> processSensorDataLogic <-- 
+[2011-10-05 15:22:57,402] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> process <-- 
+[2011-10-05 15:22:57,902] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] CommTech - in DataCollectorThreadRun 
+[2011-10-05 15:22:57,902] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> insertData <-- 
+[2011-10-05 15:22:57,902] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> processSensorDataLogic <-- 
+[2011-10-05 15:22:57,902] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> process <-- 
+[2011-10-05 15:22:58,386] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] TestAle TimerTask getDataFromSerial()  
+[2011-10-05 15:22:58,386] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] ------------------ Serial Temp Sensor ------------------------ 
+[2011-10-05 15:22:58,387] [poll data from temp sensor] [INFO] [net.hgw4.hal.Hal] Hal - pollSensors  
+[2011-10-05 15:22:58,387] [poll data from temp sensor] [INFO] [net.hgw4.hal.CommTech] CommTech - in getCurSensData 
+[2011-10-05 15:22:58,387] [poll data from temp sensor] [INFO] [net.hgw4.hal.CommTech] --> getData <-- 
+[2011-10-05 15:22:58,388] [poll data from temp sensor] [INFO] [net.hgw4.hal.CommTech] serial1 curMsg: {"value":"411"} 
+[2011-10-05 15:22:58,389] [poll data from temp sensor] [INFO] [net.hgw4.hal.DataMsgBuilder] --> DataMsgBuilderLogger <-- 
+[2011-10-05 15:22:58,389] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] sensor:0003 
+[2011-10-05 15:22:58,390] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] endpoint:0001 
+[2011-10-05 15:22:58,390] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] msgid:38 
+[2011-10-05 15:22:58,390] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] timestamp:Wed Oct 05 15:22:58 CEST 2011 
+[2011-10-05 15:22:58,390] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] data:16.579998 
+[2011-10-05 15:22:58,403] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] CommTech - in DataCollectorThreadRun 
+[2011-10-05 15:22:58,403] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> insertData <-- 
+[2011-10-05 15:22:58,403] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> processSensorDataLogic <-- 
+[2011-10-05 15:22:58,403] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> process <-- 
+[2011-10-05 15:22:58,903] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] CommTech - in DataCollectorThreadRun 
+[2011-10-05 15:22:58,903] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> insertData <-- 
+[2011-10-05 15:22:58,903] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> processSensorDataLogic <-- 
+[2011-10-05 15:22:58,903] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> process <-- 
+[2011-10-05 15:22:59,386] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] TestAle TimerTask getDataFromSerial()  
+[2011-10-05 15:22:59,386] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] ------------------ Serial Temp Sensor ------------------------ 
+[2011-10-05 15:22:59,386] [poll data from temp sensor] [INFO] [net.hgw4.hal.Hal] Hal - pollSensors  
+[2011-10-05 15:22:59,386] [poll data from temp sensor] [INFO] [net.hgw4.hal.CommTech] CommTech - in getCurSensData 
+[2011-10-05 15:22:59,386] [poll data from temp sensor] [INFO] [net.hgw4.hal.CommTech] --> getData <-- 
+[2011-10-05 15:22:59,387] [poll data from temp sensor] [INFO] [net.hgw4.hal.CommTech] serial1 curMsg: {"value":"411"} 
+[2011-10-05 15:22:59,388] [poll data from temp sensor] [INFO] [net.hgw4.hal.DataMsgBuilder] --> DataMsgBuilderLogger <-- 
+[2011-10-05 15:22:59,388] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] sensor:0003 
+[2011-10-05 15:22:59,388] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] endpoint:0001 
+[2011-10-05 15:22:59,388] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] msgid:40 
+[2011-10-05 15:22:59,388] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] timestamp:Wed Oct 05 15:22:59 CEST 2011 
+[2011-10-05 15:22:59,388] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] data:16.579998 
+[2011-10-05 15:22:59,403] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] CommTech - in DataCollectorThreadRun 
+[2011-10-05 15:22:59,404] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> insertData <-- 
+[2011-10-05 15:22:59,404] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> processSensorDataLogic <-- 
+[2011-10-05 15:22:59,404] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> process <-- 
+[2011-10-05 15:22:59,904] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] CommTech - in DataCollectorThreadRun 
+[2011-10-05 15:22:59,904] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> insertData <-- 
+[2011-10-05 15:22:59,904] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> processSensorDataLogic <-- 
+[2011-10-05 15:22:59,904] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> process <-- 
+[2011-10-05 15:23:00,386] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] TestAle TimerTask getDataFromSerial()  
+[2011-10-05 15:23:00,386] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] ------------------ Serial Temp Sensor ------------------------ 
+[2011-10-05 15:23:00,386] [poll data from temp sensor] [INFO] [net.hgw4.hal.Hal] Hal - pollSensors  
+[2011-10-05 15:23:00,386] [poll data from temp sensor] [INFO] [net.hgw4.hal.CommTech] CommTech - in getCurSensData 
+[2011-10-05 15:23:00,386] [poll data from temp sensor] [INFO] [net.hgw4.hal.CommTech] --> getData <-- 
+[2011-10-05 15:23:00,386] [poll data from temp sensor] [INFO] [net.hgw4.hal.CommTech] serial1 curMsg: {"value":"414"} 
+[2011-10-05 15:23:00,388] [poll data from temp sensor] [INFO] [net.hgw4.hal.DataMsgBuilder] --> DataMsgBuilderLogger <-- 
+[2011-10-05 15:23:00,388] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] sensor:0003 
+[2011-10-05 15:23:00,388] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] endpoint:0001 
+[2011-10-05 15:23:00,388] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] msgid:42 
+[2011-10-05 15:23:00,388] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] timestamp:Wed Oct 05 15:23:00 CEST 2011 
+[2011-10-05 15:23:00,388] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] data:16.819996 
+[2011-10-05 15:23:00,404] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] CommTech - in DataCollectorThreadRun 
+[2011-10-05 15:23:00,405] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> insertData <-- 
+[2011-10-05 15:23:00,405] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> processSensorDataLogic <-- 
+[2011-10-05 15:23:00,405] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> process <-- 
+[2011-10-05 15:23:00,905] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] CommTech - in DataCollectorThreadRun 
+[2011-10-05 15:23:00,905] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> insertData <-- 
+[2011-10-05 15:23:00,905] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> processSensorDataLogic <-- 
+[2011-10-05 15:23:00,905] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> process <-- 
+[2011-10-05 15:23:01,387] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] TestAle TimerTask getDataFromSerial()  
+[2011-10-05 15:23:01,387] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] ------------------ Serial Temp Sensor ------------------------ 
+[2011-10-05 15:23:01,387] [poll data from temp sensor] [INFO] [net.hgw4.hal.Hal] Hal - pollSensors  
+[2011-10-05 15:23:01,387] [poll data from temp sensor] [INFO] [net.hgw4.hal.CommTech] CommTech - in getCurSensData 
+[2011-10-05 15:23:01,387] [poll data from temp sensor] [INFO] [net.hgw4.hal.CommTech] --> getData <-- 
+[2011-10-05 15:23:01,387] [poll data from temp sensor] [INFO] [net.hgw4.hal.CommTech] serial1 curMsg: {"value":"414"} 
+[2011-10-05 15:23:01,389] [poll data from temp sensor] [INFO] [net.hgw4.hal.DataMsgBuilder] --> DataMsgBuilderLogger <-- 
+[2011-10-05 15:23:01,389] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] sensor:0003 
+[2011-10-05 15:23:01,389] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] endpoint:0001 
+[2011-10-05 15:23:01,389] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] msgid:44 
+[2011-10-05 15:23:01,389] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] timestamp:Wed Oct 05 15:23:01 CEST 2011 
+[2011-10-05 15:23:01,389] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] data:16.819996 
+[2011-10-05 15:23:01,405] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] CommTech - in DataCollectorThreadRun 
+[2011-10-05 15:23:01,405] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> insertData <-- 
+[2011-10-05 15:23:01,406] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> processSensorDataLogic <-- 
+[2011-10-05 15:23:01,406] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> process <-- 
+[2011-10-05 15:23:01,906] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] CommTech - in DataCollectorThreadRun 
+[2011-10-05 15:23:01,906] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> insertData <-- 
+[2011-10-05 15:23:01,906] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> processSensorDataLogic <-- 
+[2011-10-05 15:23:01,906] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> process <-- 
+[2011-10-05 15:23:02,387] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] TestAle TimerTask getDataFromSerial()  
+[2011-10-05 15:23:02,387] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] ------------------ Serial Temp Sensor ------------------------ 
+[2011-10-05 15:23:02,387] [poll data from temp sensor] [INFO] [net.hgw4.hal.Hal] Hal - pollSensors  
+[2011-10-05 15:23:02,388] [poll data from temp sensor] [INFO] [net.hgw4.hal.CommTech] CommTech - in getCurSensData 
+[2011-10-05 15:23:02,388] [poll data from temp sensor] [INFO] [net.hgw4.hal.CommTech] --> getData <-- 
+[2011-10-05 15:23:02,388] [poll data from temp sensor] [INFO] [net.hgw4.hal.CommTech] serial1 curMsg: {"value":"414"} 
+[2011-10-05 15:23:02,389] [poll data from temp sensor] [INFO] [net.hgw4.hal.DataMsgBuilder] --> DataMsgBuilderLogger <-- 
+[2011-10-05 15:23:02,390] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] sensor:0003 
+[2011-10-05 15:23:02,390] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] endpoint:0001 
+[2011-10-05 15:23:02,390] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] msgid:46 
+[2011-10-05 15:23:02,390] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] timestamp:Wed Oct 05 15:23:02 CEST 2011 
+[2011-10-05 15:23:02,390] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] data:16.819996 
+[2011-10-05 15:23:02,406] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] CommTech - in DataCollectorThreadRun 
+[2011-10-05 15:23:02,406] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> insertData <-- 
+[2011-10-05 15:23:02,406] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> processSensorDataLogic <-- 
+[2011-10-05 15:23:02,406] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> process <-- 
+[2011-10-05 15:23:02,907] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] CommTech - in DataCollectorThreadRun 
+[2011-10-05 15:23:02,907] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> insertData <-- 
+[2011-10-05 15:23:02,907] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> processSensorDataLogic <-- 
+[2011-10-05 15:23:02,907] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> process <-- 
+[2011-10-05 15:23:03,387] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] TestAle TimerTask getDataFromSerial()  
+[2011-10-05 15:23:03,388] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] ------------------ Serial Temp Sensor ------------------------ 
+[2011-10-05 15:23:03,389] [poll data from temp sensor] [INFO] [net.hgw4.hal.Hal] Hal - pollSensors  
+[2011-10-05 15:23:03,389] [poll data from temp sensor] [INFO] [net.hgw4.hal.CommTech] CommTech - in getCurSensData 
+[2011-10-05 15:23:03,389] [poll data from temp sensor] [INFO] [net.hgw4.hal.CommTech] --> getData <-- 
+[2011-10-05 15:23:03,389] [poll data from temp sensor] [INFO] [net.hgw4.hal.CommTech] serial1 curMsg: {"value":"414"} 
+[2011-10-05 15:23:03,390] [poll data from temp sensor] [INFO] [net.hgw4.hal.DataMsgBuilder] --> DataMsgBuilderLogger <-- 
+[2011-10-05 15:23:03,391] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] sensor:0003 
+[2011-10-05 15:23:03,391] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] endpoint:0001 
+[2011-10-05 15:23:03,391] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] msgid:48 
+[2011-10-05 15:23:03,391] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] timestamp:Wed Oct 05 15:23:03 CEST 2011 
+[2011-10-05 15:23:03,391] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] data:16.819996 
+[2011-10-05 15:23:03,407] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] CommTech - in DataCollectorThreadRun 
+[2011-10-05 15:23:03,407] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> insertData <-- 
+[2011-10-05 15:23:03,407] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> processSensorDataLogic <-- 
+[2011-10-05 15:23:03,407] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> process <-- 
+[2011-10-05 15:23:03,907] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] CommTech - in DataCollectorThreadRun 
+[2011-10-05 15:23:03,908] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> insertData <-- 
+[2011-10-05 15:23:03,908] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> processSensorDataLogic <-- 
+[2011-10-05 15:23:03,908] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> process <-- 
+[2011-10-05 15:23:04,387] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] TestAle TimerTask getDataFromSerial()  
+[2011-10-05 15:23:04,387] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] ------------------ Serial Temp Sensor ------------------------ 
+[2011-10-05 15:23:04,387] [poll data from temp sensor] [INFO] [net.hgw4.hal.Hal] Hal - pollSensors  
+[2011-10-05 15:23:04,387] [poll data from temp sensor] [INFO] [net.hgw4.hal.CommTech] CommTech - in getCurSensData 
+[2011-10-05 15:23:04,387] [poll data from temp sensor] [INFO] [net.hgw4.hal.CommTech] --> getData <-- 
+[2011-10-05 15:23:04,388] [poll data from temp sensor] [INFO] [net.hgw4.hal.CommTech] serial1 curMsg: {"value":"412"} 
+[2011-10-05 15:23:04,389] [poll data from temp sensor] [INFO] [net.hgw4.hal.DataMsgBuilder] --> DataMsgBuilderLogger <-- 
+[2011-10-05 15:23:04,390] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] sensor:0003 
+[2011-10-05 15:23:04,390] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] endpoint:0001 
+[2011-10-05 15:23:04,390] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] msgid:50 
+[2011-10-05 15:23:04,390] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] timestamp:Wed Oct 05 15:23:04 CEST 2011 
+[2011-10-05 15:23:04,390] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] data:16.66 
+[2011-10-05 15:23:04,408] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] CommTech - in DataCollectorThreadRun 
+[2011-10-05 15:23:04,408] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> insertData <-- 
+[2011-10-05 15:23:04,408] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> processSensorDataLogic <-- 
+[2011-10-05 15:23:04,408] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> process <-- 
+[2011-10-05 15:23:04,908] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] CommTech - in DataCollectorThreadRun 
+[2011-10-05 15:23:04,908] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> insertData <-- 
+[2011-10-05 15:23:04,908] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> processSensorDataLogic <-- 
+[2011-10-05 15:23:04,908] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> process <-- 
+[2011-10-05 15:23:05,387] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] TestAle TimerTask getDataFromSerial()  
+[2011-10-05 15:23:05,387] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] ------------------ Serial Temp Sensor ------------------------ 
+[2011-10-05 15:23:05,387] [poll data from temp sensor] [INFO] [net.hgw4.hal.Hal] Hal - pollSensors  
+[2011-10-05 15:23:05,387] [poll data from temp sensor] [INFO] [net.hgw4.hal.CommTech] CommTech - in getCurSensData 
+[2011-10-05 15:23:05,387] [poll data from temp sensor] [INFO] [net.hgw4.hal.CommTech] --> getData <-- 
+[2011-10-05 15:23:05,388] [poll data from temp sensor] [INFO] [net.hgw4.hal.CommTech] serial1 curMsg: {"value":"412"} 
+[2011-10-05 15:23:05,389] [poll data from temp sensor] [INFO] [net.hgw4.hal.DataMsgBuilder] --> DataMsgBuilderLogger <-- 
+[2011-10-05 15:23:05,389] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] sensor:0003 
+[2011-10-05 15:23:05,389] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] endpoint:0001 
+[2011-10-05 15:23:05,390] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] msgid:52 
+[2011-10-05 15:23:05,390] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] timestamp:Wed Oct 05 15:23:05 CEST 2011 
+[2011-10-05 15:23:05,390] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] data:16.66 
+[2011-10-05 15:23:05,409] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] CommTech - in DataCollectorThreadRun 
+[2011-10-05 15:23:05,409] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> insertData <-- 
+[2011-10-05 15:23:05,409] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> processSensorDataLogic <-- 
+[2011-10-05 15:23:05,409] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> process <-- 
+[2011-10-05 15:23:05,909] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] CommTech - in DataCollectorThreadRun 
+[2011-10-05 15:23:05,909] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> insertData <-- 
+[2011-10-05 15:23:05,909] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> processSensorDataLogic <-- 
+[2011-10-05 15:23:05,909] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> process <-- 
+[2011-10-05 15:23:06,387] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] TestAle TimerTask getDataFromSerial()  
+[2011-10-05 15:23:06,387] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] ------------------ Serial Temp Sensor ------------------------ 
+[2011-10-05 15:23:06,387] [poll data from temp sensor] [INFO] [net.hgw4.hal.Hal] Hal - pollSensors  
+[2011-10-05 15:23:06,387] [poll data from temp sensor] [INFO] [net.hgw4.hal.CommTech] CommTech - in getCurSensData 
+[2011-10-05 15:23:06,387] [poll data from temp sensor] [INFO] [net.hgw4.hal.CommTech] --> getData <-- 
+[2011-10-05 15:23:06,388] [poll data from temp sensor] [INFO] [net.hgw4.hal.CommTech] serial1 curMsg: {"value":"412"} 
+[2011-10-05 15:23:06,389] [poll data from temp sensor] [INFO] [net.hgw4.hal.DataMsgBuilder] --> DataMsgBuilderLogger <-- 
+[2011-10-05 15:23:06,389] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] sensor:0003 
+[2011-10-05 15:23:06,389] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] endpoint:0001 
+[2011-10-05 15:23:06,389] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] msgid:54 
+[2011-10-05 15:23:06,389] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] timestamp:Wed Oct 05 15:23:06 CEST 2011 
+[2011-10-05 15:23:06,389] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] data:16.66 
+[2011-10-05 15:23:06,409] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] CommTech - in DataCollectorThreadRun 
+[2011-10-05 15:23:06,410] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> insertData <-- 
+[2011-10-05 15:23:06,410] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> processSensorDataLogic <-- 
+[2011-10-05 15:23:06,410] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> process <-- 
+[2011-10-05 15:23:06,910] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] CommTech - in DataCollectorThreadRun 
+[2011-10-05 15:23:06,910] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> insertData <-- 
+[2011-10-05 15:23:06,910] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> processSensorDataLogic <-- 
+[2011-10-05 15:23:06,910] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> process <-- 
+[2011-10-05 15:23:07,387] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] TestAle TimerTask getDataFromSerial()  
+[2011-10-05 15:23:07,387] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] ------------------ Serial Temp Sensor ------------------------ 
+[2011-10-05 15:23:07,387] [poll data from temp sensor] [INFO] [net.hgw4.hal.Hal] Hal - pollSensors  
+[2011-10-05 15:23:07,387] [poll data from temp sensor] [INFO] [net.hgw4.hal.CommTech] CommTech - in getCurSensData 
+[2011-10-05 15:23:07,387] [poll data from temp sensor] [INFO] [net.hgw4.hal.CommTech] --> getData <-- 
+[2011-10-05 15:23:07,387] [poll data from temp sensor] [INFO] [net.hgw4.hal.CommTech] serial1 curMsg: {"value":"412"} 
+[2011-10-05 15:23:07,389] [poll data from temp sensor] [INFO] [net.hgw4.hal.DataMsgBuilder] --> DataMsgBuilderLogger <-- 
+[2011-10-05 15:23:07,389] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] sensor:0003 
+[2011-10-05 15:23:07,389] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] endpoint:0001 
+[2011-10-05 15:23:07,389] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] msgid:56 
+[2011-10-05 15:23:07,389] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] timestamp:Wed Oct 05 15:23:07 CEST 2011 
+[2011-10-05 15:23:07,389] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] data:16.66 
+[2011-10-05 15:23:07,410] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] CommTech - in DataCollectorThreadRun 
+[2011-10-05 15:23:07,411] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> insertData <-- 
+[2011-10-05 15:23:07,411] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> processSensorDataLogic <-- 
+[2011-10-05 15:23:07,411] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> process <-- 
+[2011-10-05 15:23:07,911] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] CommTech - in DataCollectorThreadRun 
+[2011-10-05 15:23:07,911] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> insertData <-- 
+[2011-10-05 15:23:07,911] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> processSensorDataLogic <-- 
+[2011-10-05 15:23:07,911] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> process <-- 
+[2011-10-05 15:23:08,388] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] TestAle TimerTask getDataFromSerial()  
+[2011-10-05 15:23:08,388] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] ------------------ Serial Temp Sensor ------------------------ 
+[2011-10-05 15:23:08,389] [poll data from temp sensor] [INFO] [net.hgw4.hal.Hal] Hal - pollSensors  
+[2011-10-05 15:23:08,389] [poll data from temp sensor] [INFO] [net.hgw4.hal.CommTech] CommTech - in getCurSensData 
+[2011-10-05 15:23:08,389] [poll data from temp sensor] [INFO] [net.hgw4.hal.CommTech] --> getData <-- 
+[2011-10-05 15:23:08,389] [poll data from temp sensor] [INFO] [net.hgw4.hal.CommTech] serial1 curMsg: {"value":"412"} 
+[2011-10-05 15:23:08,391] [poll data from temp sensor] [INFO] [net.hgw4.hal.DataMsgBuilder] --> DataMsgBuilderLogger <-- 
+[2011-10-05 15:23:08,391] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] sensor:0003 
+[2011-10-05 15:23:08,391] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] endpoint:0001 
+[2011-10-05 15:23:08,391] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] msgid:58 
+[2011-10-05 15:23:08,391] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] timestamp:Wed Oct 05 15:23:08 CEST 2011 
+[2011-10-05 15:23:08,391] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] data:16.66 
+[2011-10-05 15:23:08,411] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] CommTech - in DataCollectorThreadRun 
+[2011-10-05 15:23:08,411] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> insertData <-- 
+[2011-10-05 15:23:08,411] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> processSensorDataLogic <-- 
+[2011-10-05 15:23:08,411] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> process <-- 
+[2011-10-05 15:23:08,912] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] CommTech - in DataCollectorThreadRun 
+[2011-10-05 15:23:08,912] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> insertData <-- 
+[2011-10-05 15:23:08,912] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> processSensorDataLogic <-- 
+[2011-10-05 15:23:08,912] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> process <-- 
+[2011-10-05 15:23:09,388] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] TestAle TimerTask getDataFromSerial()  
+[2011-10-05 15:23:09,389] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] ------------------ Serial Temp Sensor ------------------------ 
+[2011-10-05 15:23:09,389] [poll data from temp sensor] [INFO] [net.hgw4.hal.Hal] Hal - pollSensors  
+[2011-10-05 15:23:09,389] [poll data from temp sensor] [INFO] [net.hgw4.hal.CommTech] CommTech - in getCurSensData 
+[2011-10-05 15:23:09,389] [poll data from temp sensor] [INFO] [net.hgw4.hal.CommTech] --> getData <-- 
+[2011-10-05 15:23:09,389] [poll data from temp sensor] [INFO] [net.hgw4.hal.CommTech] serial1 curMsg: {"value":"412"} 
+[2011-10-05 15:23:09,391] [poll data from temp sensor] [INFO] [net.hgw4.hal.DataMsgBuilder] --> DataMsgBuilderLogger <-- 
+[2011-10-05 15:23:09,391] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] sensor:0003 
+[2011-10-05 15:23:09,391] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] endpoint:0001 
+[2011-10-05 15:23:09,391] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] msgid:60 
+[2011-10-05 15:23:09,391] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] timestamp:Wed Oct 05 15:23:09 CEST 2011 
+[2011-10-05 15:23:09,391] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] data:16.66 
+[2011-10-05 15:23:09,412] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] CommTech - in DataCollectorThreadRun 
+[2011-10-05 15:23:09,412] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> insertData <-- 
+[2011-10-05 15:23:09,412] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> processSensorDataLogic <-- 
+[2011-10-05 15:23:09,412] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> process <-- 
+[2011-10-05 15:23:09,912] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] CommTech - in DataCollectorThreadRun 
+[2011-10-05 15:23:09,912] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> insertData <-- 
+[2011-10-05 15:23:09,912] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> processSensorDataLogic <-- 
+[2011-10-05 15:23:09,912] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> process <-- 
+[2011-10-05 15:23:10,388] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] TestAle TimerTask getDataFromSerial()  
+[2011-10-05 15:23:10,388] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] ------------------ Serial Temp Sensor ------------------------ 
+[2011-10-05 15:23:10,389] [poll data from temp sensor] [INFO] [net.hgw4.hal.Hal] Hal - pollSensors  
+[2011-10-05 15:23:10,389] [poll data from temp sensor] [INFO] [net.hgw4.hal.CommTech] CommTech - in getCurSensData 
+[2011-10-05 15:23:10,389] [poll data from temp sensor] [INFO] [net.hgw4.hal.CommTech] --> getData <-- 
+[2011-10-05 15:23:10,389] [poll data from temp sensor] [INFO] [net.hgw4.hal.CommTech] serial1 curMsg: {"value":"412"} 
+[2011-10-05 15:23:10,391] [poll data from temp sensor] [INFO] [net.hgw4.hal.DataMsgBuilder] --> DataMsgBuilderLogger <-- 
+[2011-10-05 15:23:10,391] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] sensor:0003 
+[2011-10-05 15:23:10,391] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] endpoint:0001 
+[2011-10-05 15:23:10,391] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] msgid:62 
+[2011-10-05 15:23:10,391] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] timestamp:Wed Oct 05 15:23:10 CEST 2011 
+[2011-10-05 15:23:10,391] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] data:16.66 
+[2011-10-05 15:23:10,413] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] CommTech - in DataCollectorThreadRun 
+[2011-10-05 15:23:10,413] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> insertData <-- 
+[2011-10-05 15:23:10,413] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> processSensorDataLogic <-- 
+[2011-10-05 15:23:10,413] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> process <-- 
+[2011-10-05 15:23:10,913] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] CommTech - in DataCollectorThreadRun 
+[2011-10-05 15:23:10,913] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> insertData <-- 
+[2011-10-05 15:23:10,913] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> processSensorDataLogic <-- 
+[2011-10-05 15:23:10,913] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> process <-- 
+[2011-10-05 15:23:11,388] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] TestAle TimerTask getDataFromSerial()  
+[2011-10-05 15:23:11,388] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] ------------------ Serial Temp Sensor ------------------------ 
+[2011-10-05 15:23:11,388] [poll data from temp sensor] [INFO] [net.hgw4.hal.Hal] Hal - pollSensors  
+[2011-10-05 15:23:11,388] [poll data from temp sensor] [INFO] [net.hgw4.hal.CommTech] CommTech - in getCurSensData 
+[2011-10-05 15:23:11,388] [poll data from temp sensor] [INFO] [net.hgw4.hal.CommTech] --> getData <-- 
+[2011-10-05 15:23:11,388] [poll data from temp sensor] [INFO] [net.hgw4.hal.CommTech] serial1 curMsg: {"value":"412"} 
+[2011-10-05 15:23:11,390] [poll data from temp sensor] [INFO] [net.hgw4.hal.DataMsgBuilder] --> DataMsgBuilderLogger <-- 
+[2011-10-05 15:23:11,390] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] sensor:0003 
+[2011-10-05 15:23:11,390] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] endpoint:0001 
+[2011-10-05 15:23:11,390] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] msgid:64 
+[2011-10-05 15:23:11,390] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] timestamp:Wed Oct 05 15:23:11 CEST 2011 
+[2011-10-05 15:23:11,390] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] data:16.66 
+[2011-10-05 15:23:11,414] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] CommTech - in DataCollectorThreadRun 
+[2011-10-05 15:23:11,414] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> insertData <-- 
+[2011-10-05 15:23:11,414] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> processSensorDataLogic <-- 
+[2011-10-05 15:23:11,414] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> process <-- 
+[2011-10-05 15:23:11,914] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] CommTech - in DataCollectorThreadRun 
+[2011-10-05 15:23:11,914] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> insertData <-- 
+[2011-10-05 15:23:11,914] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> processSensorDataLogic <-- 
+[2011-10-05 15:23:11,914] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> process <-- 
+[2011-10-05 15:23:12,388] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] TestAle TimerTask getDataFromSerial()  
+[2011-10-05 15:23:12,388] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] ------------------ Serial Temp Sensor ------------------------ 
+[2011-10-05 15:23:12,388] [poll data from temp sensor] [INFO] [net.hgw4.hal.Hal] Hal - pollSensors  
+[2011-10-05 15:23:12,388] [poll data from temp sensor] [INFO] [net.hgw4.hal.CommTech] CommTech - in getCurSensData 
+[2011-10-05 15:23:12,388] [poll data from temp sensor] [INFO] [net.hgw4.hal.CommTech] --> getData <-- 
+[2011-10-05 15:23:12,389] [poll data from temp sensor] [INFO] [net.hgw4.hal.CommTech] serial1 curMsg: {"value":"414"} 
+[2011-10-05 15:23:12,390] [poll data from temp sensor] [INFO] [net.hgw4.hal.DataMsgBuilder] --> DataMsgBuilderLogger <-- 
+[2011-10-05 15:23:12,391] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] sensor:0003 
+[2011-10-05 15:23:12,391] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] endpoint:0001 
+[2011-10-05 15:23:12,391] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] msgid:66 
+[2011-10-05 15:23:12,391] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] timestamp:Wed Oct 05 15:23:12 CEST 2011 
+[2011-10-05 15:23:12,391] [poll data from temp sensor] [INFO] [net.hgw4.HGWTest] data:16.819996 
+[2011-10-05 15:23:12,414] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] CommTech - in DataCollectorThreadRun 
+[2011-10-05 15:23:12,414] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> insertData <-- 
+[2011-10-05 15:23:12,415] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> processSensorDataLogic <-- 
+[2011-10-05 15:23:12,415] [Commetch - dataCollectorThread - serial] [INFO] [net.hgw4.hal.CommTech] --> process <-- 

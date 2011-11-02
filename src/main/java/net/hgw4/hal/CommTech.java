@@ -38,7 +38,6 @@ public class CommTech  {
     public String selectedCommType;
     public String selectedProtocol;
     public UDPComm curUDPComm;
-    public BluetoothComm curBtComm;
     public SerialComm curSerialComm;
     private Logger commTechLogger;
     private JSONObject curJsonCommTechConfig;

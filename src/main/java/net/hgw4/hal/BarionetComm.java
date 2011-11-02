@@ -27,6 +27,10 @@ import java.util.Timer;
 import java.util.TimerTask;
 import java.util.Observable;
 
+ /** BarionetComm mages the cmmunication to Barix hardware
+ *   http://www.barix.com/Barionet/511/
+ * 
+ */
 public class BarionetComm extends Observable implements PossibleMsgCmds  {
     private byte[] receiveData = new byte[150];
     private InetAddress ipAdress;
@@ -42,6 +46,9 @@ public class BarionetComm extends Observable implements PossibleMsgCmds  {
     private int flagTimerResponse = 0;
     private Logger BarionetCommLogger;
   
+    /**
+     * thread for listening to response from device
+     */
     public class RunningCmdResponseThreadRun implements Runnable{
         public String txtmsg = null;
         @Override
@@ -58,9 +65,9 @@ public class BarionetComm extends Observable implements PossibleMsgCmds  {
                         } catch (UnsupportedEncodingException ex) {
                             BarionetCommLogger.info("--> Barionet -Error <--");
                         }
-                    // statechange,208,x ; statechange,207,x
+                    
                         BarionetCommLogger.info("Barionet-RunningCmdResponseThreadRun---->>receiveUDPdata:   " + txtmsg );
-                        //BarionetCommLogger.info("Barionet-RunningCmdResponseThreadRun---->>indexof:   " + txtmsg.indexOf("statechange,207,1") );
+                        
                         if ( txtmsg.indexOf("statechange,207,1") == 0 ){
                             setChanged();
                             notifyObservers("statechange,207,1");
@@ -79,7 +86,7 @@ public class BarionetComm extends Observable implements PossibleMsgCmds  {
     
     
     /**
-     *  create a barionet manger on por and ip specified
+     *  create a barionet manager on port and ip specified
      * @param port
      * @param ip_to_send_data 
      */
@@ -106,7 +113,7 @@ public class BarionetComm extends Observable implements PossibleMsgCmds  {
     }
     
     /**
-     * send a command to barionet if
+     * send a command to barionet 
      * @param curCmdVal 
      * @return
      */
@@ -126,18 +133,16 @@ public class BarionetComm extends Observable implements PossibleMsgCmds  {
         //parse cmd & send
         switch(curCmdVal){
                 case 0: //on
-
                      dataToSend = onCmd(Integer.toString(curCmdVal));
                 break;
                 case 1: //off
-
                      dataToSend = offCmd(Integer.toString(curCmdVal));
                 break;
                 case 2: //onperc
-                     dataToSend = "no-operative";
+                     dataToSend = "not-operative";
                 break;
                 case 3: //offperc
-                     dataToSend = "no-operative";
+                     dataToSend = "not-operative";
                 break;
             }
 
@@ -147,7 +152,6 @@ public class BarionetComm extends Observable implements PossibleMsgCmds  {
         }else{
            BarionetCommLogger.info("Barionet-UDPcomm null!!!!! ");
         }
-
         
         //get status of sent command
         JSONObject msg = checkCommand("setio", "1");

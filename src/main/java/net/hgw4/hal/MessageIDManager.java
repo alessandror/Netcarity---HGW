@@ -24,42 +24,60 @@ private int sensorMsgIdValueCounter = 0;
 private int actuatorMsgIdValueCounter = 0;
 private int eventMsgIdValueCounter = 0;
 
-
-    /**
-     * 
-     * @param init
-     */
     MessageIDManager() {
         
 
     }
-
+    /**
+     * get sensor msg id
+     * @return sensorMsgIdValueCounter
+     */
     public int getSensorMsgId(){
         if (sensorMsgIdValueCounter > Integer.MAX_VALUE )sensorMsgIdValueCounter=0;
         sensorMsgIdValueCounter+=1;
         return sensorMsgIdValueCounter;
     }
-
+    
+    /**
+     * get actuator msg id
+     * @return actuatorMsgIdValueCounter
+     */
     public int getActuatorMsgId(){
         if (actuatorMsgIdValueCounter > Integer.MAX_VALUE )actuatorMsgIdValueCounter=0;
         actuatorMsgIdValueCounter+=1;
         return actuatorMsgIdValueCounter;
     }
-
+    
+    /**
+     * get event ,msg id
+     * @return eventMsgIdValueCounter
+     */
     public int getEventMsgId(){
         if (eventMsgIdValueCounter > Integer.MAX_VALUE )eventMsgIdValueCounter=0;
         eventMsgIdValueCounter+=1;
         return eventMsgIdValueCounter;
     }
-
+    
+    /**
+     * set sensor msg id
+     * @param id
+     */
     public void setSensorMsgId(int val){
         sensorMsgIdValueCounter = val;
     }
-
+    
+    /**
+     * set actuator msg id
+     * @param id 
+     */
     public void setActuatorMsgId(int val){
         actuatorMsgIdValueCounter = val;
     }
-
+    
+    /**
+     * set event msg id 
+     * @param val 
+     */
     public void setEventMsgId(int val){
         eventMsgIdValueCounter = val;
     }

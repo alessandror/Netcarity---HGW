@@ -22,7 +22,9 @@ public class SensorDataLogic {
 private Logger sensorDataLogicLogger = null;
 private String curAssociatedLogic = null;
 
-    //TODO check possible logics
+    /**
+    * ex for logic 
+    */
     public static enum PossibleLogicCases {
         checkalarm,
         checkvalue

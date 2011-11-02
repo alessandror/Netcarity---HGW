@@ -36,6 +36,7 @@ private String curNodeID = null;
 private String curEndPointID = null;
 private  String msgDataValue = null;
 private Logger DataMsgBuilderLogger;
+
     DataMsgBuilder(JSONObject rcvSensValue,
                    MessageIDManager rcvMessageIdManager,
                    Node rcvNode,
@@ -62,7 +63,7 @@ private Logger DataMsgBuilderLogger;
     
     /**
      * return the populated json object
-     * @return
+     * @return msgBuilder(curJsonValue)
      */
     public JSONObject getData() {
         return msgBuilder(curJsonValue);
@@ -74,22 +75,22 @@ private Logger DataMsgBuilderLogger;
      */
     private JSONObject msgBuilder(JSONObject val) {
         try {
-            //TODO: ricordati di pulire le altre classi per  gli altri valori json non necessari, mi server solo value
+            
 //nc message-------------------------------
    //header--------------------------------
-            //genero il message ID
+            //create message ID
             String msgMsgId = getMsgId();
-            //genero il timestamp
+            //create timestamp
             String msgTime = getTime();
-            //msg type
+            //set msg type
             String msgType = "response";
-            //msg source
+            //set msg source
             String msgSource = "hgw3";//TODO: da leggere fa oggetto json
-            //msg target
+            //set msg target
             String msgTarget = "NCCC0";//TODO: da mettere in file di config
-            //genero la priorità
+            //set priority
             String msgPriority = getPriority();
-            // msg version
+            // set msg version
             String msgVersion ="1.1";//TODO: da mettere in file di config
    //header--------------------------------
    //node,endpoint-------------------------
