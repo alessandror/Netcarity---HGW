@@ -1,2 +1,0 @@
-1- generalizzare il meccanismo di event handler non solo per barionet
- 
